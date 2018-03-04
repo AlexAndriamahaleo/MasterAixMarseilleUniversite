@@ -8,6 +8,7 @@ XMLFILE=masterinfo.univ-mrs.xml
 
 XSLDIR=old/
 OUTPUTHTML=www/
+XSLFILES=xsl/
 
 all: index sample
 
@@ -15,4 +16,7 @@ index:
 	$(XSL) $(XSLFLAGS) $(addprefix $(XSLDIR),$(HTML)) $(addprefix $(XSLDIR),$(XSLFILE)) $(addprefix $(XSLDIR),$(XMLFILE))
 
 sample:
-	$(XSL) $(XSLFLAGS) $(addprefix $(OUTPUTHTML), $(HTML)) $(addprefix $(OUTPUTHTML),$(XSLFILE)) $(addprefix $(OUTPUTHTML),$(XMLFILE))
+	$(XSL) $(XSLFLAGS) $(addprefix $(OUTPUTHTML),$(HTML)) $(addprefix $(XSLFILES),$(XSLFILE)) $(XMLFILE)
+
+clean:
+	rm *.html
