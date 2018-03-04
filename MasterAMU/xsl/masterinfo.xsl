@@ -3,11 +3,14 @@
   ~ Copyright (c) 2018.
   ~ alex
   -->
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet
+        version="2.0"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
     <xsl:output
             method="html"
-            version="1.0"
+            version="5.0"
             encoding="UTF-8"
             indent="yes"
             cdata-section-elements="description"
