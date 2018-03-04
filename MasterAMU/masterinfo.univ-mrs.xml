@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE master SYSTEM "masterinfo.univ-mrs.dtd">
+
+<master>
+    <table-intervenants>
+        <intervenant id="arrighi">
+            <nom>Pablo ARRIGHI</nom>
+            <mail>pablo.arrighi@&dom.amu;</mail>
+        </intervenant>
+        <intervenant id="bouclema">
+            <nom>Omar BOUCELMA</nom>
+            <mail>omar.bouclema@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~omar.bouclema/</site-perso>
+        </intervenant>
+        <intervenant id="chepoi">
+            <nom>Victor CHEPOI</nom>
+            <mail>victor.chepoi@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~victor.chepoi/</site-perso>
+        </intervenant>
+        <intervenant id="contensin">
+            <nom>Magali CONTENSIN</nom>
+            <mail>magali.contensin@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~magali.contensin/</site-perso>
+        </intervenant>
+        <intervenant id="coady">
+            <nom>Ann COADY</nom>
+            <mail>anne.coady@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~anne.coady/</site-perso>
+        </intervenant>
+        <intervenant id="creignou">
+            <nom>Nadia CREIGNOU</nom>
+            <mail>nadia.creignou@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~nadia.creignou/</site-perso>
+        </intervenant>
+        <intervenant id="denis">
+            <nom>Francois DENIS</nom>
+            <mail>francoi.denis@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~francoi.denis/</site-perso>
+        </intervenant>
+        <intervenant id="favre">
+            <nom>Benoit FAVRE</nom>
+            <mail>benoit.favre@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~benoit.favre/</site-perso>
+        </intervenant>
+        <intervenant id="godard">
+            <nom>Emmanuel GODARD</nom>
+            <mail>emmanel.godard@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~emmanel.godard/</site-perso>
+        </intervenant>
+        <intervenant id="habet">
+            <nom>Djamal HABET</nom>
+            <mail>djamal.habet@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~djamal.habet/</site-perso>
+        </intervenant>
+        <intervenant id="jamet">
+            <nom>Line JAMET-JAKUBIEC</nom>
+            <mail>line.jametjakubiec@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~line.jametjakubiec/</site-perso>
+        </intervenant>
+        <intervenant id="labourel">
+            <nom>Arnaud LABOUREL</nom>
+            <mail>arnaud.labourel@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~arnaud.labourel/</site-perso>
+        </intervenant>
+        <intervenant id="massat">
+            <nom>Jean Luc MASSAT</nom>
+            <mail>jeanlus.massat@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~jeanlus.massat/</site-perso>
+        </intervenant>
+        <intervenant id="niebert">
+            <nom>Peter NIEBERT</nom>
+            <mail>peter.niebert@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~peter.niebert/</site-perso>
+        </intervenant>
+        <intervenant id="morin">
+            <nom>Remi MORIN</nom>
+            <mail>remi.morin@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~remi.morin/</site-perso>
+        </intervenant>
+        <intervenant id="novelli">
+            <nom>Noel NOVELLI</nom>
+            <mail>noel.novelli@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~noel.novelli/</site-perso>
+        </intervenant>
+        <intervenant id="olive">
+            <nom>Frederic OLIVE</nom>
+            <mail>fredric.olive@&dom.amu;</mail>
+        </intervenant>
+        <intervenant id="perrot">
+            <nom>Kevin PERROT</nom>
+            <mail>kevin.perrot@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~kevin.perrot/</site-perso>
+        </intervenant>
+        <intervenant id="rene">
+            <nom>Lydie RENE CHABAROT</nom>
+            <mail>lydie.renechabarot@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~lydie.renechabarot/</site-perso>
+        </intervenant>
+        <intervenant id="sabatier">
+            <nom>Claude SABATIER</nom>
+            <mail>claude.sabatier@&dom.amu;</mail>
+        </intervenant>
+        <intervenant id="santocanale">
+            <nom>Luigi SANTOCANALE</nom>
+            <mail>luigi.santocanale@&dom.amu;</mail>
+            <site-perso>pageperso.lif.univ-mrs.fr/~luigi.santocanale/</site-perso>
+        </intervenant>
+        <intervenant id="sellami">
+            <nom>Sana SELLAMI</nom>
+            <mail>sana.sellami@&dom.amu;</mail>
+        </intervenant>
+    </table-intervenants>
+    <parcours>
+        <nom>Master 1 Informatique</nom>
+        <description>
+            L'objectif de cette première année est de donner les bases indispensables permettant,
+            en deuxième année, de choisir une spécialisation dans un domaine précis.
+            Sur les 60 crédits de cette première année, 15 crédits correspondent à des enseignements optionnels.
+            Ces options permettent de construire un parcours adapté.
+            Un choix entre stage ou projet encadré est également proposé au semestre de printemps.
+        </description>
+        <semestre id="S1">
+            <list-ue>
+                <ue id="ENSINAU1" role="obligatoire">
+                    <nom>Génie Logiciel</nom>
+                    <credits>6</credits>
+                    <description>
+                        <ul>
+                            <li>Processus logiciel</li>
+                            <li>Gestion de projet</li>
+                            <li>Spécification et conception (artefact : notation UML)</li>
+                            <li>Design patterns</li>
+                        </ul>
+                    </description>
+                    <plan>20h CM, 20h TD, 20h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="arrighi"/>
+                        <ref-intervenant ref="perrot"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU2" role="obligatoire">
+                    <nom>Complexité</nom>
+                    <credits>6</credits>
+                    <description>
+                        Rappels sur les notions d'analyse de la complexité des algorithmes et des problèmes.
+                        Notion de problèmes (décision, recherche, dénombrement, énumération, optimisation). Bornes inférieures de complexité.
+                        Classes P et NP. Problèmes NP-complets.
+                        Méthodes de résolution des problèmes NP-Complets.
+                    </description>
+                    <plan>20h CM, 20h TD, 20h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="creignou"/>
+                        <ref-intervenant ref="olive"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU3" role="obligatoire">
+                    <nom>Réseaux</nom>
+                    <credits>6</credits>
+                    <description>
+                        Architecture en couches, standard OSI
+                        Couche physique
+                        Couche liaison de Données
+                        Réseau IP
+                        Algorithmes de routage, routage IP
+                        Protocole TCP/IP
+                        Couche Application : HTTP, SMTP, FTP, ...
+                        Bases des protocoles cryptographiques (terminologie, architecture à clef publique).
+                        Introduction à la Sécurité des réseaux.
+                    </description>
+                    <plan>20h CM, 20h TD, 20h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="godard"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU12" role="obligatoire">
+                    <nom>BDR : approfondissement </nom>
+                    <credits>3</credits>
+                    <description>
+                        nous sommes désolé, mais nous n'avons pas encore de résumé.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="novelli"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU4" role="obligatoire">
+                    <nom>Programmation fonctionnelle</nom>
+                    <credits>3</credits>
+                    <description>
+                        <ol>
+                            <li>Introduction à la programmation fonctionnelle, sur l'exemple du langage
+                                OCaml
+                                Expressions, évaluation, types de base. Polymorphisme, ordre supérieur.
+                                Fonctions récursives, filtrage. Les diverses stratégies d'évaluation, application à la
+                                programmation d'un opérateur de point fixe.
+                            </li>
+                            <li>Les types. Sommes, types récursifs, polymorphes. Arbres. Filtrage.</li>
+                            <li>Sémantique opérationnelle. Liaisons, environnements, clôtures. Évaluation des fonctions récursives.</li>
+                            <li>Aspects impératifs. Exceptions, entrées-sorties, séquencement, fichiers, références, tableaux, enregistrements.</li>
+                            <li>Implantation du filtrage en OCaml Termes formels, substitutions, filtrage.</li>
+                        </ol>
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="santocanale"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU6" role="option">
+                    <nom>Programmation logique</nom>
+                    <credits>3</credits>
+                    <description>
+                        Introduction. Forme générale des règles. Effacement, unification, backtracking. Contrôle de l'exécution.
+                        Listes, arbres et n-uplets. Liste représentée par différence de listes. Ajout en tête et en queue, concaténation.
+                        Analyseurs syntaxiques. Construction d'un arbre syntaxique. Liste des feuilles d'un arbre. Freeze et analyse par feuille.
+                        Règles prédéfinies.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="santocanale"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU7" role="option">
+                    <nom>Outils de l'internet</nom>
+                    <credits>3</credits>
+                    <description>
+                        Présentation d'Internet.
+                        Les langages et les normes sur Internet.
+                        Les protocoles : HTTP, HTTP, SMTP, IMAP, POP3
+                        Les applications web.
+                        Sécurité.
+                        Les nouvelles et futures technologies.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="contensin"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU8" role="option">
+                    <nom>Système embarqué</nom>
+                    <credits>3</credits>
+                    <description>
+                        nous sommes désolé, mais nous n'avons pas encore de résumé.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="niebert"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU9" role="option">
+                    <nom>Fondamentaux pour l'ingénierie des langues</nom>
+                    <credits>3</credits>
+                    <description>
+                        Rappel de théorie des langages
+                        Algorithmes d'analyse syntaxique pour grammaires ambiguës
+                        Transducteurs finis et leur application en TAL
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="labourel"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU10" role="option">
+                    <nom>Modèles à évènements discrets</nom>
+                    <credits>3</credits>
+                    <description>
+                        <p>Posséder les notions de base en modélisation et analyse de systèmes dynamiques à événements discrets et particulièrement appréhender le formalisme réseau de
+                            Pétri. Étudier la conception et la spécification des systèmes réactifs à travers l'analyse du modèle à évènements discrets (concurrence, parallélisme, synchronisation).
+                        </p>
+                    </description>
+                    <plan>20h CM, 10h TD</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="labourel"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINAU13" role="option">
+                    <nom>Pratique de la cryptographie</nom>
+                    <credits>3</credits>
+                    <description>
+                        nous sommes désolé, mais nous n'avons pas encore de résumé.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="morin"/>
+                    </list-intervenants>
+                </ue>
+            </list-ue>
+        </semestre>
+        <semestre id="S2">
+            <list-ue>
+                <ue id="ENSINBU1" role="obligatoire">
+                    <nom>Anglais</nom>
+                    <credits>3</credits>
+                    <description>
+                        Un enseignement destiné à confirmer l'utilisation de l'anglais dans le contexte de l'informatique ainsi que dans la pratique professionnelle.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="coady"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU2" role="obligatoire">
+                    <nom>Communication</nom>
+                    <credits>3</credits>
+                    <description>
+                        chapitre 1  : Théories de la communication :
+
+                        1.1 La théorie mathématique de l’information (Shannon, Weaver), la cybernétique (Wiener)
+                        1.2 La théorie de Palo Alto ( Bateson, Watzlawick) et la théorie de la communication par les processus (Mucchielli)
+                        chapitre 2 : Rôle de l’interculturalité dans le travail en équipe :
+
+                        2.1 L’enquête interculturelle de Hofstede pour IBM
+                        2.2 La gestuelle et le paralangage et la proxémie dans le monde (Hall)
+                        chapitre 3 : Notions de management et de travail collaboratif
+
+                        3.1 Le travail collaboratif vs le travail coopératif
+                        3.2 La notion de groupes
+                        3.3 Les compétences managériales
+                        Pré-requis :
+
+                        Particulièrement utile pour un choix d’options, les échanges internationaux et la formation continue.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="rene"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU4" role="obligatoire">
+                    <nom>XML</nom>
+                    <credits>3</credits>
+                    <description>
+                        XML, DTD, XSD
+                        XPath, XSLT, XQuery
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="massat"/>
+                        <ref-intervenant ref="morin"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU5" role="obligatoire">
+                    <nom>Algorithmique et recherche opérationnelle</nom>
+                    <credits>3</credits>
+                    <description>
+                        Programmation linéaire.
+                        Notions et algorithmes de flots.
+                        Applications (couplage, affectation, transport, ...)
+                        Programmation dynamique (sac à dos, ordonnancement, ...)
+                        Algorithmes à performance garantie
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="chepoi"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU15" role="obligatoire">
+                    <nom>Programmation parallèle</nom>
+                    <credits>3</credits>
+                    <description>
+                        nous sommes désolé, mais nous n'avons pas encore de résumé.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="morin"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU6" role="obligatoire">
+                    <nom>Programmation parallèle</nom>
+                    <credits>6</credits>
+                    <description>
+                        Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en cours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="morin"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU7" role="obligatoire">
+                    <nom>Stage de deux mois</nom>
+                    <credits>6</credits>
+                    <description>
+                        Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en cours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINBU8" role="option">
+                    <nom>Sémantique</nom>
+                    <credits>3</credits>
+                    <description>
+                        1-Le lambda-calcul simplement typé
+
+                        Syntaxe, typage, beta et eta-conversions, équations. Modèles : interprétation des jugements de typage.
+
+                        2-Extension à PCF. La règle \mu.
+
+                        3-Points fixes dans les ordres partiels complets.
+
+                        Le théorème de Tarski.
+
+                        4-Sémantique par point fixe de PCF.
+
+                        5-Cours de clôture : survol des différentes approches sémantiques.
+
+                        Sémantiques opérationnelles : par transitions, naturelles, machine abstraite de
+
+                        Landin.
+
+                        Sémantique dénotationnelles : cas fonctionnel(cf.chapitre 4) et cas d'un petit langage impératif.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="bouclema"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU9" role="option">
+                    <nom>Algorithmique distribuée</nom>
+                    <credits>3</credits>
+                    <description>
+                        Un système distribué est un ensemble d’entités autonomes de calcul (ordinateurs, PDA, processeurs, processus, processus léger, ...) interconnectées et qui peuvent communiquer entre eux. Ce cours est une introduction aux méthodes pour la conception d'algorithmes dans de tels systèmes. Il donne une présentation des différents types de systèmes distribués et des différents problèmes que l'on doit résoudre. Les problèmes abordés sont : l'élection, le consensus, la diffusion, l'exploration, la réplication, l'exploration et le rendez-vous avec des agent mobiles.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="denis"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU10" role="option">
+                    <nom>Intégration des systèmes d'information</nom>
+                    <credits>3</credits>
+                    <description>
+                        Problématique d'intégration des SI
+                        Architectures et patrons d'intégration
+                        Systèmes d'Information d'entreprises
+                        Systèmes d'Information sur Internet
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="bouclema"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU11" role="option">
+                    <nom>Initiation à la fouille de données et à l'optimisation des SGBD</nom>
+                    <credits>3</credits>
+                    <description>
+                        Actuellement, de plus en plus de données sont conservées sans être réellement exploitées. Elles représentent pourtant une source importante d’information. La fouille de données peut-être définie comme le processus permettant d’extraire de l’information non triviale et non préalablement connue à partir des données. Dans cet enseignement, nous nous focaliserons sur l’extraction de corrélations entre les données (règle d’association, Dépendances Fonctionnelles...) et nous verrons des techniques de mesure de la qualité des données (détection et correction d’erreur).
+
+                        Par ailleurs, nous passerons du côté obscur des SGBD en mettant évidence le lien existant entre les performances d'un SGBD et les choix d'implémentation des différents algorithmes utilisés (gestion de la concurrence, reprise sur panne, transaction...) ainsi que les différentes implémentations existantes des opérations de base des SGBD comme les jointures ou les tris accompagnés de leurs conditions d'utilisation.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="novelli"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU12" role="option">
+                    <nom>Intelligence artificielle</nom>
+                    <credits>3</credits>
+                    <description>
+                        Introduction à l'IA
+                        Problèmes d'espace d'états et d'exploration
+                        Logiques pour l'IA et démonstration automatique
+                        Représentation de connaissances
+                        Actions, temps et planification
+                        Programmation par contraintes et réseaux de contraintes
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="favre"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU13" role="option">
+                    <nom>Algorithme à performance garantie</nom>
+                    <credits>3</credits>
+                    <description>
+                        Algorithmes d'approximation de nature combinatoire pour les problèmes
+                        NP-complets suivants : Voyageur de Commerce, arbre de Steiner, ordonnancement de taches, clustering, p-centres, sac à dos, bin packing, couverture d'ensemble, la plus courte sur-séquence commune ;
+
+                        FPTAS et PTAS (ordonnancement de taches et sac à dos) ;
+                        Algorithmes d'approximation par programmation linéaire : l'arrondi et la méthode primale-duale (MAXSAT, couverture d'ensemble, multicoupes et multiflots dans les arbres) ;
+                        Algorithmes en ligne et compétitivité : la pagination et les k-serveurs.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="morin"/>
+                    </list-intervenants>
+                </ue>
+                <ue id="ENSINBU14" role="option">
+                    <nom>Introduction à l'apprentissage automatique</nom>
+                    <credits>3</credits>
+                    <description>
+                        Ce module constitue une introduction à l’apprentissage automatique (Machine Learning). Son contenu est structuré en 5 chapitres :
+
+                        Introduction aux concepts de bases : formalisme statistique pour l'apprentissage supervisé (classification et régression), l'apprentissage non supervisé et l'estimation de densité
+                        Arbres de décision et sélection de modèles par validation croisée.
+                        Régression linéaire (une variable), méthode des moindres carrés, sélection de variables. Pointeurs vers les modèles linéaires généralisés et la parcimonie.
+                        Algorithme du perceptron, perceptron à noyau. Pointeurs vers les réseaux de neurones et les séparateurs à vaste marge (SVM).
+                        Réseaux de neurones. Pointeurs vers le deep learning.
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                    <list-intervenants>
+                        <ref-intervenant ref="denis"/>
+                    </list-intervenants>
+                </ue>
+            </list-ue>
+        </semestre>
+        <list-intervenants>
+            <ref-intervenant ref="morin"/>
+        </list-intervenants>
+    </parcours>
+    <parcours>
+        <nom>Master 2 : Spécialité GL</nom>
+        <description>
+            La production d'un logiciel est une tâche très complexe mettant en oeuvre plusieurs ressources, notamment humaines, matériels et technologiques. La spécialité « Génie logiciel » a pour objectif d'apporter aux étudiants les compétences approfondies requises pour pouvoir intervenir dans toutes les phases de la production logiciel.
+        </description>
+        <semestre id="S3">
+            <list-ue>
+                <ue id="ENSINCU41" role="obligatoire">
+                    <nom>Qualité logicielle : outils et méthodes</nom>
+                    <credits>6</credits>
+                    <description>Qualité logicielle, test et validation logiciel, ateliers de génie logiciel.</description>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU42" role="obligatoire">
+                    <nom>Spécification logicielle</nom>
+                    <credits>3</credits>
+                    <description>Modèles formels, modèle SADT, logiciels temps réel, méthode SA-RT.</description>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU43" role="obligatoire">
+                    <nom>Conception logicielle</nom>
+                    <credits>3</credits>
+                    <description>Conception objet, patrons de conception, conception IHM.</description>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU46" role="obligatoire">
+                    <nom>XML avancé</nom>
+                    <credits>3</credits>
+                    <description>Modélisation et navigation, XSchema et XPath avancés, Requêtage des bases documentaires, DOM et SAX avancés.</description>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                    </list-lieu>
+                </ue>
+            </list-ue>
+        </semestre>
+        <semestre id="S4">
+            <list-ue>
+                <ue id="ENSINDU3" role="obligatoire">
+                    <nom>Projet industriel de mise en application</nom>
+                    <credits>6</credits>
+                    <description>Rédaction du cahier des charges. Conception de l'application. Développement et test. Rédaction d'un mémoire et présentation.</description>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINDU4" role="obligatoire">
+                    <nom>Stage en entreprise</nom>
+                    <credits>6</credits>
+                    <description>Recherche d'un stage. Validation du sujet de stage. Suivi du bon déroulement du stage. Aide à la rédaction du mémoire de stage. Soutenance et évaluation du stage.</description>
+                    <list-lieu>
+                        <lieu-ens>&stj;</lieu-ens>
+                    </list-lieu>
+                </ue>
+            </list-ue>
+        </semestre>
+        <list-intervenants>
+            <ref-intervenant ref="habet"/>
+        </list-intervenants>
+        <list-débouchés>
+            <métier>Ingénieur informaticien</métier>
+            <métier>Ingénieur d’études et de développement</métier>
+            <métier>Ingénieur qualité logicielle</métier>
+            <métier>Architecte JEE</métier>
+            <métier>Architecte d’applications</métier>
+            <métier>Développeur et concepteur d’applications</métier>
+            <métier>Ingénieur développeur Web</métier>
+            <métier>Chef de projets</métier>
+            <métier>Consultant</métier>
+        </list-débouchés>
+    </parcours>
+</master>

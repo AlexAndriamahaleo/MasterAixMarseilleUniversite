@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ENTITY dom.amu        "univ-amu.fr">
+<!ENTITY dom.mrs        "univ-mrs.fr">
+<!ENTITY dom.lif        "lif.&dom.mrs;">
+<!ENTITY dom.luminy     "luminy.&dom.amu;">
+<!ENTITY dom.perso      "perso.&dom.luminy;">
+<!ENTITY pageperso.lif  "pageperso.&dom.lif;">
+
+<!ENTITY stj            "Saint Jérôme">
+<!ENTITY lum            "Luminy">
+
+<!ENTITY % obligatoire  "obligatoire">
+<!ENTITY % option       "option">
+<!ENTITY % bonus        "bonus">
+
+<!ENTITY % paragraph    "#PCDATA | b | strong | i | a | u | ul | ol | table">
+
+<!ELEMENT master                (table-intervenants,parcours+)>
+<!ELEMENT table-intervenants    (intervenant+)>
+<!ELEMENT intervenant           (nom,tel?,mail+,site-perso*)>
+<!ATTLIST intervenant
+        id  ID  #REQUIRED
+        >
+<!ELEMENT list-intervenants     (ref-intervenant+)>
+<!ELEMENT ue                    (nom+,credits,description,plan?,list-lieu?,list-intervenants?)>
+<!ATTLIST ue
+        id  ID  #REQUIRED
+        >
+<!ELEMENT parcours              (nom,description,semestre+,list-intervenants,list-débouchés?)>
+<!ELEMENT list-ue               (ue)+>
+<!ATTLIST ue
+        role  (%obligatoire;|%option;|%bonus;)  #REQUIRED
+        >
+
+<!ELEMENT list-lieu             (lieu-ens+)>
+<!ELEMENT ref-intervenant   EMPTY>
+<!ATTLIST ref-intervenant
+        ref  IDREF #REQUIRED
+        >
+<!ELEMENT semestre              (list-ue+)>
+<!ATTLIST semestre
+        id  ID  #REQUIRED
+        >
+<!ELEMENT list-débouchés        (métier+)>
+<!ELEMENT table             (tr)+>
+<!ELEMENT tr                (th|td)+>
+<!ELEMENT description       (%paragraph; | p )*>
+<!ELEMENT métier            (#PCDATA)>
+<!ELEMENT nom               (#PCDATA)>
+<!ELEMENT tel               (#PCDATA)>
+<!ELEMENT mail              (#PCDATA)>
+<!ELEMENT site-perso        (#PCDATA)>
+<!ELEMENT credits           (#PCDATA)>
+<!ELEMENT plan              (#PCDATA)>
+<!ELEMENT lieu-ens          (#PCDATA)>
+<!ELEMENT diplôme           (#PCDATA)>
+<!ELEMENT salaire           (#PCDATA)>
+
+<!ELEMENT p                 ( %paragraph; )*>
+<!ELEMENT b                 (#PCDATA)>
+<!ELEMENT strong            (#PCDATA)>
+<!ELEMENT i                 (#PCDATA)>
+<!ELEMENT a                 (#PCDATA)>
+<!ATTLIST a
+        href  CDATA "#"
+        >
+<!ELEMENT u                 (#PCDATA)>
+<!ELEMENT ul                (li+)>
+<!ELEMENT ol                (li+)>
+<!ELEMENT li                (#PCDATA)>
+<!ELEMENT th                (#PCDATA)>
+<!ELEMENT td                (#PCDATA)>
