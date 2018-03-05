@@ -7,108 +7,108 @@
         <intervenant id="arrighi">
             <nom>Pablo ARRIGHI</nom>
             <mail>pablo.arrighi@&dom.amu;</mail>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~pablo.arrighi/</site-perso>
         </intervenant>
-        <intervenant id="bouclema">
+        <intervenant id="boucelma">
             <nom>Omar BOUCELMA</nom>
-            <mail>omar.bouclema@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~omar.bouclema/</site-perso>
+            <mail>omar.boucelma@&dom.amu;</mail>
         </intervenant>
         <intervenant id="chepoi">
             <nom>Victor CHEPOI</nom>
             <mail>victor.chepoi@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~victor.chepoi/</site-perso>
+            <site-perso>https://pageperso.lif.univ-mrs.fr/~victor.chepoi/</site-perso>
         </intervenant>
         <intervenant id="contensin">
             <nom>Magali CONTENSIN</nom>
             <mail>magali.contensin@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~magali.contensin/</site-perso>
         </intervenant>
         <intervenant id="coady">
             <nom>Ann COADY</nom>
             <mail>anne.coady@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~anne.coady/</site-perso>
         </intervenant>
         <intervenant id="creignou">
             <nom>Nadia CREIGNOU</nom>
-            <mail>nadia.creignou@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~nadia.creignou/</site-perso>
+            <mail>nadia.creignou@&dom.lif;</mail>
+            <site-perso>http://www.lif.univ-mrs.fr/annuaire/personne/1155937</site-perso>
         </intervenant>
         <intervenant id="denis">
             <nom>Francois DENIS</nom>
-            <mail>francoi.denis@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~francoi.denis/</site-perso>
+            <mail>francoi.denis@&dom.lif;</mail>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~francois.denis/</site-perso>
         </intervenant>
         <intervenant id="favre">
             <nom>Benoit FAVRE</nom>
             <mail>benoit.favre@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~benoit.favre/</site-perso>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~benoit.favre/</site-perso>
         </intervenant>
         <intervenant id="godard">
             <nom>Emmanuel GODARD</nom>
-            <mail>emmanel.godard@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~emmanel.godard/</site-perso>
+            <mail>emmanel.godard@&dom.lif;</mail>
+            <site-perso>http://www.lif.univ-mrs.fr/~egodard</site-perso>
         </intervenant>
         <intervenant id="habet">
             <nom>Djamal HABET</nom>
             <mail>djamal.habet@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~djamal.habet/</site-perso>
+            <mail>djamal.habet@lis-lab.fr</mail>
+            <site-perso>http://www.lsis.org/habetd/</site-perso>
         </intervenant>
         <intervenant id="jamet">
             <nom>Line JAMET-JAKUBIEC</nom>
-            <mail>line.jametjakubiec@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~line.jametjakubiec/</site-perso>
+            <mail>line.jametjakubiec@&dom.lif;</mail>
+            <site-perso>http://www.dil.univ-mrs.fr/~jakubiec/</site-perso>
         </intervenant>
         <intervenant id="labourel">
             <nom>Arnaud LABOUREL</nom>
-            <mail>arnaud.labourel@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~arnaud.labourel/</site-perso>
+            <mail>arnaud.labourel@&dom.lif;</mail>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~arnaud.labourel/</site-perso>
         </intervenant>
         <intervenant id="massat">
             <nom>Jean Luc MASSAT</nom>
-            <mail>jeanlus.massat@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~jeanlus.massat/</site-perso>
+            <mail>jeanlus.massat@&dom.lif;</mail>
+            <site-perso>http://jean-luc.massat.perso.luminy.univ-amu.fr/ens/</site-perso>
         </intervenant>
         <intervenant id="niebert">
             <nom>Peter NIEBERT</nom>
             <mail>peter.niebert@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~peter.niebert/</site-perso>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~peter.niebert/</site-perso>
         </intervenant>
         <intervenant id="morin">
             <nom>Remi MORIN</nom>
-            <mail>remi.morin@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~remi.morin/</site-perso>
+            <mail>remi.morin@&dom.lif;</mail>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~remi.morin/</site-perso>
         </intervenant>
         <intervenant id="novelli">
             <nom>Noel NOVELLI</nom>
-            <mail>noel.novelli@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~noel.novelli/</site-perso>
+            <mail>noel.novelli@&dom.lif;</mail>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~noel.novelli/</site-perso>
         </intervenant>
         <intervenant id="olive">
             <nom>Frederic OLIVE</nom>
             <mail>fredric.olive@&dom.amu;</mail>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~frederic.olive/</site-perso>
         </intervenant>
         <intervenant id="perrot">
             <nom>Kevin PERROT</nom>
-            <mail>kevin.perrot@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~kevin.perrot/</site-perso>
+            <mail>kevin.perrot@&dom.mrs;</mail>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~kevin.perrot/</site-perso>
         </intervenant>
         <intervenant id="rene">
             <nom>Lydie RENE CHABAROT</nom>
             <mail>lydie.renechabarot@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~lydie.renechabarot/</site-perso>
         </intervenant>
         <intervenant id="sabatier">
             <nom>Claude SABATIER</nom>
-            <mail>claude.sabatier@&dom.amu;</mail>
+            <mail>claude.sabatier@&dom.lif;</mail>
         </intervenant>
         <intervenant id="santocanale">
             <nom>Luigi SANTOCANALE</nom>
             <mail>luigi.santocanale@&dom.amu;</mail>
-            <site-perso>pageperso.lif.univ-mrs.fr/~luigi.santocanale/</site-perso>
+            <site-perso>http://pageperso.lif.univ-mrs.fr/~luigi.santocanale/</site-perso>
         </intervenant>
         <intervenant id="sellami">
             <nom>Sana SELLAMI</nom>
-            <mail>sana.sellami@&dom.amu;</mail>
+            <mail>sana.sellami@lis-lab.org</mail>
+            <site-perso>http://www.lsis.org/sellamis/</site-perso>
         </intervenant>
     </table-intervenants>
     <parcours>
@@ -120,7 +120,7 @@
             Ces options permettent de construire un parcours adapté.
             Un choix entre stage ou projet encadré est également proposé au semestre de printemps.
         </description>
-        <semestre id="S1">
+        <semestre id="M1S1" ref="S1">
             <list-ue>
                 <ue id="ENSINAU1" role="obligatoire">
                     <nom>Génie Logiciel</nom>
@@ -330,7 +330,7 @@
                 </ue>
             </list-ue>
         </semestre>
-        <semestre id="S2">
+        <semestre id="M1S2" ref="S2">
             <list-ue>
                 <ue id="ENSINBU1" role="obligatoire">
                     <nom>Anglais</nom>
@@ -483,7 +483,7 @@
                         <lieu-ens>&lum;</lieu-ens>
                     </list-lieu>
                     <list-intervenants>
-                        <ref-intervenant ref="bouclema"/>
+                        <ref-intervenant ref="boucelma"/>
                     </list-intervenants>
                 </ue>
                 <ue id="ENSINBU9" role="option">
@@ -515,7 +515,7 @@
                         <lieu-ens>&stj;</lieu-ens>
                     </list-lieu>
                     <list-intervenants>
-                        <ref-intervenant ref="bouclema"/>
+                        <ref-intervenant ref="boucelma"/>
                     </list-intervenants>
                 </ue>
                 <ue id="ENSINBU11" role="option">
@@ -606,7 +606,7 @@
         <description>
             La production d'un logiciel est une tâche très complexe mettant en oeuvre plusieurs ressources, notamment humaines, matériels et technologiques. La spécialité « Génie logiciel » a pour objectif d'apporter aux étudiants les compétences approfondies requises pour pouvoir intervenir dans toutes les phases de la production logiciel.
         </description>
-        <semestre id="S3">
+        <semestre id="M2GLS3" ref="S3">
             <list-ue>
                 <ue id="ENSINCU41" role="obligatoire">
                     <nom>Qualité logicielle : outils et méthodes</nom>
@@ -642,7 +642,7 @@
                 </ue>
             </list-ue>
         </semestre>
-        <semestre id="S4">
+        <semestre id="M2GLS4" ref="S4">
             <list-ue>
                 <ue id="ENSINDU3" role="obligatoire">
                     <nom>Projet industriel de mise en application</nom>
@@ -676,5 +676,542 @@
             <métier>Chef de projets</métier>
             <métier>Consultant</métier>
         </list-débouchés>
+    </parcours>
+    <parcours>
+        <nom>Master 2 : Spécialité FSI</nom>
+        <description>La formation donne les principes et techniques liés à la conception de systèmes informatiques surs dans un environnement ouvert et hétérogène.
+            Elle forme les étudiants aux principes et méthodes de développement modernes qui reposent sur des outils de prototypage, de test et de suivi de logiciels, avec des méthodologies normalisées.
+            Elle apporte des compétences fortes en sécurité informatique dans les domaines liés à l'échange d'information (Web-services,
+            protocoles de communication et cryptographiques,..) et à la communication entre systèmes (réseaux hétérogènes et applications embarquées ou distribuées).</description>
+        <semestre id="M2FSIS3" ref="S3">
+            <list-ue>
+                <ue id="ENSINCU27" role="obligatoire">
+                    <nom>Anglais 2</nom>
+                    <credits>3</credits>
+                    <description>
+                        Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU28" role="obligatoire">
+                    <nom>Communication 2</nom>
+                    <credits>3</credits>
+                    <description>
+                        L’étudiant apprend à effectuer un bilan de son parcours de formation,
+                        à élaborer un projet professionnel personnel,
+                        à cerner ses motivations et à enrichir ses connaissances des métiers et
+                        du marché de l’informatique pour se constituer un portefeuille de compétences.
+                        <ul>
+                            <li>Valorisation du parcours de formation</li>
+                            <li>Clarification des motivations et de leurs incidences sur des choix professionnels</li>
+                            <li>Identification des aptitudes et des compétences,</li>
+                            <li>Positionnement du projet personnel et professionnel</li>
+                            <li>Ajustement des profils annonce / candidature</li>
+                            <li>Préparation aux entretiens de recrutement</li>
+                            <li>Rédaction de curriculum vitae et de lettres de motivation</li>
+                        </ul>
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU29" role="obligatoire">
+                    <nom>Fiabilité logicielle 1</nom>
+                    <credits>3</credits>
+                    <description>
+                        Résumé :
+
+                        Introduction fiabilité vs sécurité
+                        Test boite blanche (graphe de contrôle, de donnée, mesure de couverture, modèle à base d'automates, qualité logicielle)
+                        Test boite noire (spécifications formelle informelles, construction de suite de tests : partitionnement, tests au limites, tests combinatoires, graphe de causalité)
+                        Test et Simulation (Objets factices, inversion de contrôle, intégration)
+                        Validation Formelle (système de preuves : Hoare, logique de séparation, analyse statique)
+                        Pré-requis :
+
+                        Environnement de programmation Eclipse
+                        Java
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU30" role="obligatoire">
+                    <nom>Plateforme JEE</nom>
+                    <credits>3</credits>
+                    <description>
+                        Résumé :
+
+                        L'objet du cours est de présenter le développement d'applications dans le cadre de la plateforme JEE ( Java Enterprise Edition ). Nous étudions notamment
+
+                        Accès aux ressources extérieures :
+
+                        les interfaces java d'accès aux bases de données relationnelles (JDBC),
+                        les interfaces d'accès aux annuaires d'entreprise (LDAP, JNDI)
+                        Mise en place d'une couche métier (middleware) :
+
+                        les architectures logicielles à base de composants (EJB, Spring, Jboss, Glassfish) et les principes de mise en œuvre (spécification/implantation, injection de dépendances et inversion de contrôle),
+                        l'architecture des applications 3-tiers,
+                        Couche de présentation et interfaces Web :
+
+                        les technologies de mise en œuvre des applications WEB (Servlet, JSP, Tomcat, Glassfish).
+                        Pré-requis :
+
+                        XML / XPATH / XSLT
+                        Technologies du Web ((X)HTML, CSS, Javascript)
+                    </description>
+                    <plan>12h CM, 18h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU31" role="obligatoire">
+                    <nom>Systèmes hétérogènes</nom>
+                    <credits>3</credits>
+                    <description>
+                        Les parties magistrales de l'enseignement seront l'occasion d'aborder notamment les
+                        aspects suivants :
+
+                        Introduction aux métiers et organisation des Systèmes d'Information (DSI, AMO, MOE, architectes,
+                        exploitants...)
+                        Introduction aux stratégies d'entreprises autour de leurs systèmes d'information (plan de
+                        continuité d'activité, plan de reprise d'activité, plan de continuité informatique...)
+                        Introduction à la conception et à l'évolution de systèmes d'information (recueil et analyse de
+                        l'existant, des besoins et contraintes, scénarii, rédaction de cahier des charges...)
+                        Découvertes des technologies liées à la disponibilité et haute disponibilité des données
+                        informatiques (réseaux de stockage - SAN, NAS -, virtualisation...)
+                        Découverte des architectures de disponibilité et haute disponibilité des SI (analyse des
+                        besoins, conception, cloud computing...)
+                        Approfondissement des savoirs autour des réseaux de transferts de données d'entreprises
+                        (routage, réseaux privés virtuels...)
+                        Découverte des infrastructures de services des réseaux de données
+                        Pré-requis :
+
+                        Connaissances fondamentales en utilisation et administration des systèmes d'exploitation de type
+                        serveurs (Microsoft, Linux).
+                    </description>
+                    <plan>12h CM, 10h TD, 8h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU67" role="bonus">
+                    <nom>Projet d'entreprise</nom>
+                    <credits>3</credits>
+                    <description>
+                        L'objet de cet enseignement est de présenter un projet de création et de développementd'entreprise. Le but est de donner une vision horizontale des différents aspects à examiner pour se lancerdans une création d'entreprise, sans la complétude verticale donnée par exemple par un cours de type« école de commerce » sur l'aspect marché. Une vision de Business Plan pourra ainsi être acquise à la finde cet enseignement.
+                    </description>
+                    <plan>10h CM, 20h TD</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU32" role="obligatoire">
+                    <nom>Sécurité internet et réseau</nom>
+                    <credits>6</credits>
+                    <description>
+                        Le cours aborde la sécurité de l'information sous deux aspects :
+
+                        Un volet organisationnel qui aborde la mise en place d'un système de management de la sécurité informatique à travers notamment l'étude des normes (ISO 27001, ISO 27002 ...) ou l'utilisation pratique de méthodes d'évaluation des besoins et des objectifs de sécurité
+                        Un volet technique orienté sur l'acquisition des mécanismes cryptographiques actuels (algorithmes, protocoles ...) avec une mise en œuvre pratique (tunnels sécurisés, infrastructure de distribution de certificats...) ainsi que l'utilisation des outils de sécurité réseaux (journalisation, conformité …) en complément d'une sensibilisation pratique aux types d'attaque réellement existantes.
+                        Pré-requis :
+
+                        Connaissances fondamentales en utilisation et administration des systèmes d'exploitation de type serveurs (Microsoft, Linux)
+                    </description>
+                    <plan>20h CM, 20h TD, 20h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU33" role="obligatoire">
+                    <nom>Fiabilité logicielle 2</nom>
+                    <credits>3</credits>
+                    <description>
+                        La première partie du cours se divise en deux sections : la sécurité dans le langage
+                        Java et la sécurité dans les applications web.
+
+                        Pour la première section, dans Java la sécurité revêt de nombreux aspects :
+
+                        les spécifications du langage disposent de fonctionnalités pour renforcer la sécurité du code,
+                        aussi bien lors de la phase de compilation que lors de la phase d'exécution
+                        la plate-forme définit un modèle pour gérer les droits d'une application (applications locales
+                        ou applications téléchargées sur le réseau)
+                        l'API JCE permet d'utiliser des technologies de cryptographie (cryptage/décryptage de données,
+                        génération de clés)
+                        l'API JAAS propose un service pour gérer l'authentification et les autorisations d'un
+                        utilisateur
+                        Au niveau de la sécurité dans les applications web, on aborde différents notions liées à la
+                        sécurité, comme l'authentification, le contrôle d'accès, les vulnérabilités d'un système (ou
+                        risque d'attaques). On s'appuie notamment sur l'organisme Open Web Application Security Project
+                        (OWASP) qui établi un classement des problèmes des sécurité les plus critiques pour les
+                        applications web. Des solutions possibles sont analysées en cours, ainsi que de bonnes pratiques
+                        de développement pour limiter de telles failles de sécurité. Un exemple de vérification formelle
+                        automatique (basée sur des techniques de « model checking ») sur le protocole de sécurité
+                        Single-Sign-On est présenté.
+
+                        La deuxième partie du cours s'articule autour des Critères Communs de Sécurité (CCS) qui ont
+                        pour objectif d'évaluer la sécurité des systèmes informatiques.
+
+                        Les CCS mettent en place un standard de certification internationale et offrent un ensemble de
+                        recommandations précises pour analyser, développer, valider, maintenir et utiliser des systèmes
+                        informatiques.
+
+                        En ce sens, ils proposent une méthode de support pour les développeurs, les évaluateurs et les
+                        utilisateurs finaux. Ils servent de base pour évaluer et déterminer le « degré de confiance »
+                        que l'on peut attribuer à un système ou à une application. En particulier, ils décrivent 7
+                        niveaux d'évaluation et d'analyse de programmes.
+
+                        Dans cette partie du cours, chaque niveau est passé en revue, de façon générale dans un premier
+                        temps, puis à travers un exemple de programme à vérifier. L'accent est surtout mis sur les
+                        niveaux les plus élevés, nécessitant une spécification formelle ou même une vérification
+                        formelle.
+
+                        Dans le cours, l'objectif principal est de montrer qu'un programme est fiable par rapport aux
+                        spécifications initiales. Pour cela, le cours présente :
+
+                        le système de spécification formelle Z (notation mathématique basée sur la théorie des ensembles
+                        et sur la logique du premier ordre),
+                        l'atelier de génie logiciel B (dont la notation Z est à l'origine ; les supports de Jean-Raymond
+                        Abrial sont utilisés dans un cours),
+                        les différents systèmes de types qui existent et en particulier, un système de type évolué au
+                        travers du système Coq (basé sur la théorie du Calcul des Constructions qui est un lambda-calcul
+                        typé d'ordre supérieur).
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU34" role="obligatoire">
+                    <nom>Qualité</nom>
+                    <credits>3</credits>
+                    <description>Chapitre 1 : Introduction : Référentiels et Gestion de Service IT
+
+                        Concept de Service, La Gestion de Service et ITILv3, Processus, Rôles et Fonctions, Deming,
+                        Cycle de vie des Services
+                        Chapitre 2 : Stratégie des Services
+
+                        Définition de la Stratégie, Gestion du Portefeuille, Gestion de la Demande, Gestion Financière
+                        Chapitre 3 : Conception des Services
+
+                        Concepts, Gestion du Catalogue, Gestion des Niveaux de Service, Gestion de la Capacité, Gestion
+                        de la Disponibilité, Gestion de la Continuité, Gestion de la Sécurité, Gestion des Fournisseurs
+                        Chapitre 4 : Transition des Services
+
+                        Gestion des Actifs et des Configurations, Gestion des Changements, Gestion des Déploiements et
+                        des Mises en Production, Gestion de la Connaissance
+                        Chapitre 5 : Exploitation des Services
+
+                        Les Fonctions, Gestion des Evènements, Gestion des Incidents, Gestion des Requêtes, gestion des
+                        Problèmes, Gestion des Accès
+                        Chapitre 6 : Amélioration Continue des Services
+
+                        Processus d’amélioration en 7 étapes
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU35" role="obligatoire">
+                    <nom>Sécurité des systèmes embarqués</nom>
+                    <credits>3</credits>
+                    <description>But de ce module est de familiariser les étudiants avec les principes de la norme USB
+                        et de leur donner les moyens pour développer des pilotes USB côté hôte et côté périphérique. La
+                        norme USB étant vaste, on se concentrera sur deux classes particulières, les périphériques HID
+                        (human interface devise) et les périphériques CCID (circuit card interface devices, c'est-à-dire
+                        des lecteurs de cartes à puce sans et avec contact pour des applications de sécurité).
+
+                        Contenu du cours :
+
+                        Introduction à USB : architecture matériel et logiciel, classes de périphériques, classes de
+                        transferts, nouveautés dans USB 3.0
+                        Protocole de communication USB, détaillé, schéma de transactions, terminaisons, types de
+                        transfert ; descripteurs et énumérations
+                        Détails de la classe classe HID : exemples simples (souris, clavier) et exemples plus complexes
+                        et applications
+                        USB pratique coté périphérique : ce qu'il faut faire, comment utiliser les bibliothèques USB, ce
+                        qu'il faut ajouter, interruptions et threads.
+                        USB pratique coté hôte (Linux) : ce qu'il faut faire, comment utiliser libusb, comment écrire
+                        des pilotes comme extensions de kernel, ...
+                        Introduction aux smart cards et à la classe CCID.
+                    </description>
+                    <plan>10h CM, 20h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+            </list-ue>
+        </semestre>
+        <semestre id="M2FSIS4" ref="S4">
+            <list-ue>
+                <ue id="ENSINDU3" role="obligatoire">
+                    <nom>Projet industriel de mise en application</nom>
+                    <credits>6</credits>
+                    <description>
+                        Rédaction du cahier des charges. Conception de l'application. Développement et test. Rédaction d'un mémoire et présentation.
+                    </description>
+                </ue>
+                <ue id="ENSINDU4" role="obligatoire">
+                    <nom>Stage en entreprise</nom>
+                    <credits>24</credits>
+                    <description>Recherche d'un stage. Validation du sujet de stage. Suivi du bon déroulement du stage.
+                        Aide à la rédaction du mémoire de stage. Soutenance et évaluation du stage.
+                    </description>
+                </ue>
+            </list-ue>
+        </semestre>
+        <list-intervenants>
+            <ref-intervenant ref="godard"/>
+        </list-intervenants>
+        <list-débouchés>
+            <métier>Ingénieur études et développement</métier>
+            <métier>Responsable réseaux</métier>
+            <métier>Responsable systèmes et sécurité</métier>
+            <métier>Ingénieur qualité</métier>
+        </list-débouchés>
+    </parcours>
+    <parcours>
+        <nom>Master 2 : Spécialité ISL</nom>
+        <description>
+            Le développement de l'Internet/Intranet et des applications associées a fait émerger de nouvelles normes pour la structuration des applications informatiques réparties. L'enjeu est de présenter des modèles (programmation par composants, par aspects, design pattern), des plateformes (JEE, .NET, Corba, etc.) et des outils (JAVA, SGBDOO, XML) qui offrent un cadre dans lequel les applications sont développées, validées et intégrées plus facilement.
+            L'objectif de ce parcours est d'initier les étudiants à la conception et à la réalisation d'applications dans de tels cadres. La formation mettra plus particulièrement l'accent sur les notions d'architecture logicielle, de programmation par composants, de qualité et de fiabilité. Elle utilisera la plateforme Java Enterprise Edition pour concrétiser les concepts présentés.
+        </description>
+        <semestre id="M2ISLS3" ref="S3">
+            <list-ue>
+                <ue id="ENSINCU27" role="obligatoire">
+                    <nom>Anglais 2</nom>
+                    <credits>3</credits>
+                    <description>
+                        Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU28" role="obligatoire">
+                    <nom>Communication 2</nom>
+                    <credits>3</credits>
+                    <description>
+                        L’étudiant apprend à effectuer un bilan de son parcours de formation,
+                        à élaborer un projet professionnel personnel,
+                        à cerner ses motivations et à enrichir ses connaissances des métiers et
+                        du marché de l’informatique pour se constituer un portefeuille de compétences.
+                        <ul>
+                            <li>Valorisation du parcours de formation</li>
+                            <li>Clarification des motivations et de leurs incidences sur des choix professionnels</li>
+                            <li>Identification des aptitudes et des compétences,</li>
+                            <li>Positionnement du projet personnel et professionnel</li>
+                            <li>Ajustement des profils annonce / candidature</li>
+                            <li>Préparation aux entretiens de recrutement</li>
+                            <li>Rédaction de curriculum vitae et de lettres de motivation</li>
+                        </ul>
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU29" role="obligatoire">
+                    <nom>Fiabilité logicielle 1</nom>
+                    <credits>3</credits>
+                    <description>
+                        Résumé :
+
+                        Introduction fiabilité vs sécurité
+                        Test boite blanche (graphe de contrôle, de donnée, mesure de couverture, modèle à base d'automates, qualité logicielle)
+                        Test boite noire (spécifications formelle informelles, construction de suite de tests : partitionnement, tests au limites, tests combinatoires, graphe de causalité)
+                        Test et Simulation (Objets factices, inversion de contrôle, intégration)
+                        Validation Formelle (système de preuves : Hoare, logique de séparation, analyse statique)
+                        Pré-requis :
+
+                        Environnement de programmation Eclipse
+                        Java
+                    </description>
+                    <plan>10h CM, 10h TD, 10h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU30" role="obligatoire">
+                    <nom>Plateforme JEE</nom>
+                    <credits>3</credits>
+                    <description>
+                        Résumé :
+
+                        L'objet du cours est de présenter le développement d'applications dans le cadre de la plateforme JEE ( Java Enterprise Edition ). Nous étudions notamment
+
+                        Accès aux ressources extérieures :
+
+                        les interfaces java d'accès aux bases de données relationnelles (JDBC),
+                        les interfaces d'accès aux annuaires d'entreprise (LDAP, JNDI)
+                        Mise en place d'une couche métier (middleware) :
+
+                        les architectures logicielles à base de composants (EJB, Spring, Jboss, Glassfish) et les principes de mise en œuvre (spécification/implantation, injection de dépendances et inversion de contrôle),
+                        l'architecture des applications 3-tiers,
+                        Couche de présentation et interfaces Web :
+
+                        les technologies de mise en œuvre des applications WEB (Servlet, JSP, Tomcat, Glassfish).
+                        Pré-requis :
+
+                        XML / XPATH / XSLT
+                        Technologies du Web ((X)HTML, CSS, Javascript)
+                    </description>
+                    <plan>12h CM, 18h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU31" role="obligatoire">
+                    <nom>Systèmes hétérogènes</nom>
+                    <credits>3</credits>
+                    <description>
+                        Les parties magistrales de l'enseignement seront l'occasion d'aborder notamment les
+                        aspects suivants :
+
+                        Introduction aux métiers et organisation des Systèmes d'Information (DSI, AMO, MOE, architectes,
+                        exploitants...)
+                        Introduction aux stratégies d'entreprises autour de leurs systèmes d'information (plan de
+                        continuité d'activité, plan de reprise d'activité, plan de continuité informatique...)
+                        Introduction à la conception et à l'évolution de systèmes d'information (recueil et analyse de
+                        l'existant, des besoins et contraintes, scénarii, rédaction de cahier des charges...)
+                        Découvertes des technologies liées à la disponibilité et haute disponibilité des données
+                        informatiques (réseaux de stockage - SAN, NAS -, virtualisation...)
+                        Découverte des architectures de disponibilité et haute disponibilité des SI (analyse des
+                        besoins, conception, cloud computing...)
+                        Approfondissement des savoirs autour des réseaux de transferts de données d'entreprises
+                        (routage, réseaux privés virtuels...)
+                        Découverte des infrastructures de services des réseaux de données
+                        Pré-requis :
+
+                        Connaissances fondamentales en utilisation et administration des systèmes d'exploitation de type
+                        serveurs (Microsoft, Linux).
+                    </description>
+                    <plan>12h CM, 10h TD, 8h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU67" role="bonus">
+                    <nom>Projet d'entreprise</nom>
+                    <credits>3</credits>
+                    <description>
+                        L'objet de cet enseignement est de présenter un projet de création et de développementd'entreprise. Le but est de donner une vision horizontale des différents aspects à examiner pour se lancerdans une création d'entreprise, sans la complétude verticale donnée par exemple par un cours de type« école de commerce » sur l'aspect marché. Une vision de Business Plan pourra ainsi être acquise à la finde cet enseignement.
+                    </description>
+                    <plan>10h CM, 20h TD</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU36" role="obligatoire">
+                    <nom>Administration système réseau</nom>
+                    <credits>3</credits>
+                    <description>L'objectif est de préparer les étudiants à l'administration d'un réseau d'ordinateurs.
+                        L'accent sera mis sur les aspects pratiques et concrets de l'administration d'un réseau
+                        d'entreprise pour les systèmes UNIX et Windows. A ce titre, une maquette constituée de plusieurs
+                        serveurs et stations sous Windows 2000/XP/Linux sera montée par les étudiants.
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU37" role="obligatoire">
+                    <nom>Méthodes de développement</nom>
+                    <credits>3</credits>
+                    <description>En cours, sont vus les éléments suivants :
+
+                        Les problématiques d'un développement pérenne (principes, cycle de développement, méthodologies)
+                        Rappels d'UML : principaux diagrammes (classes, activités, cas, séquences), représentation,
+                        études de cas
+                        Les design patterns en profondeur (description détaillée des 26 patterns, étude de cas)
+                        Pré-requis :
+
+                        Experience de programmation dans d'autres langages que Java
+                        Création/utilisation d'un design pattern
+                        Modélisation MVC
+                    </description>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU38" role="obligatoire">
+                    <nom>Architecture logicielle JEE</nom>
+                    <credits>3</credits>
+                    <description>L'objet du cours est de présenter l'architecture et le développement d'applications
+                        dans le cadre de la plateforme JEE ( Java Enterprise Edition ). Ce cours prend la suite d'un
+                        premier cours de 30 heures sur JEE. Nous étudions notamment
+
+                        la maîtrise des Enterprise Java Bean qui sont les composantes métier de la plateforme JEE,
+                        le couplage entre EJB et base de données relationnelle pour la manipulation des données métier (
+                        Java Persistance API ),
+                        l'architecture MVC des applications Web avec Spring MVC et Struts,
+                        les principes de sécurisation des applications Web
+                        les technologies JSF (Java Server Faces) et GWT (Google Web Toolkit) pour la réalisation
+                        d'applications Web riches,
+                        les techniques de conception et de réalisation des Web Services (SOAP, XML-RPC, WSDL).
+                        Pré-requis :
+
+                        XML / XPATH / XSLT
+                        Technologies du Web ((X)HTML, CSS, Javascript)
+                    </description>
+                    <plan>6h CM, 24h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU39" role="obligatoire">
+                    <nom>Intégration des données</nom>
+                    <credits>3</credits>
+                    <description>Ce cours est structuré en trois parties :
+
+                        Le modèle Relationnel-Objet : La norme SQL3, l’implantation dans le SGBD Oracle
+                        XML et les bases de données : Stockage en base, les fonctions SQLXML
+                        La correspondance Objet/Relationnel : Le standard JPA, l’implantation Hibernate
+                        Pré-requis :
+
+                        Bonne connaissance des bases de données relationnelles
+                    </description>
+                    <plan>15h CM, 15h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+                <ue id="ENSINCU40" role="obligatoire">
+                    <nom>Adminsitration et alimentation de BD</nom>
+                    <credits>3</credits>
+                    <description>Architecture d’un SGBD.
+                        Création, Confidentialité, Optimisation et Sécurité d’une base de données.
+                        Migration de bases de données : techniques usuelles, maintenance de l’inter-dépendance entre
+                        bases de données.
+                        Alimentation, nettoyage et sélection des données en vue d'analyses.
+                        Logiciels possible : ORACLE, Pentaho Data Integration.
+                    </description>
+                    <plan>15h CM, 15h TP</plan>
+                    <list-lieu>
+                        <lieu-ens>&lum;</lieu-ens>
+                    </list-lieu>
+                </ue>
+            </list-ue>
+        </semestre>
+        <semestre id="M2ISLS4" ref="S4">
+            <list-ue>
+                <ue id="ENSINDU3" role="obligatoire">
+                    <nom>Projet industriel de mise en application</nom>
+                    <credits>6</credits>
+                    <description>
+                        Rédaction du cahier des charges. Conception de l'application. Développement et test. Rédaction d'un mémoire et présentation.
+                    </description>
+                </ue>
+                <ue id="ENSINDU4" role="obligatoire">
+                    <nom>Stage en entreprise</nom>
+                    <credits>24</credits>
+                    <description>Recherche d'un stage. Validation du sujet de stage. Suivi du bon déroulement du stage.
+                        Aide à la rédaction du mémoire de stage. Soutenance et évaluation du stage.
+                    </description>
+                </ue>
+            </list-ue>
+        </semestre>
+        <list-intervenants>
+            <ref-intervenant ref="massat"/>
+        </list-intervenants>
     </parcours>
 </master>

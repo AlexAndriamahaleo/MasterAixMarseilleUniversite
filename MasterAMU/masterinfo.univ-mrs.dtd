@@ -25,7 +25,7 @@
 <!ELEMENT list-intervenants     (ref-intervenant+)>
 <!ELEMENT ue                    (nom+,credits,description,plan?,list-lieu?,list-intervenants?)>
 <!ATTLIST ue
-        id  ID  #REQUIRED
+        id  CDATA  #REQUIRED
         >
 <!ELEMENT parcours              (nom,description,semestre+,list-intervenants,list-débouchés?)>
 <!ELEMENT list-ue               (ue)+>
@@ -41,6 +41,9 @@
 <!ELEMENT semestre              (list-ue+)>
 <!ATTLIST semestre
         id  ID  #REQUIRED
+        >
+<!ATTLIST semestre
+        ref CDATA #IMPLIED
         >
 <!ELEMENT list-débouchés        (métier+)>
 <!ELEMENT table             (tr)+>
