@@ -1,13 +1,22 @@
 <!DOCTYPE html
   SYSTEM "masterinfo.univ-mrs.info.dtd">
-<head xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<head>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Master Informatique de Marseille</title>
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-</head>
-<body xmlns:xs="http://www.w3.org/2001/XMLSchema" class="block amber darken-1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"><style>
+                body {
+                display: flex;
+                min-height: 100vh;
+                flex-direction: column;
+                }
+
+                main {
+                flex: 1 0 auto;
+                }
+            </style></head>
+<body class="block amber darken-1">
    <div class="fixed-action-btn"><a class="btn-floating btn-large red"><i class="large material-icons">menu</i></a><ul>
          <li><a class="btn-floating blue darken-1 tooltipped" href="liste-intervenants.html" data-position="left" data-delay="50" data-tooltip="Intervenants"><i class="material-icons">account_box</i></a></li>
          <li><a class="btn-floating blue darken-2 tooltipped" href="liste-unites.html" data-position="left" data-delay="50" data-tooltip="UEs"><i class="material-icons">school</i></a></li>
@@ -16,19 +25,19 @@
    <ul id="index1" class="dropdown-content center">
       <li><a href="liste-intervenants.html">Intervenants</a></li>
       <li class="divider"></li>
-      <li><a href="#">Parcours</a></li>
+      <li><a href="index.html">Parcours</a></li>
       <li class="divider"></li>
       <li><a href="liste-unites.html">UEs</a></li>
    </ul>
    <nav class="blue darken-2" role="navigation">
       <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo center">Master Informatique de Marseille</a><ul class="right hide-on-med-and-down">
-            <li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="index1">Menu
+            <li><a class="dropdown-button" href="#" data-beloworigin="true" data-activates="index1">Menu
                   <i class="material-icons right">arrow_drop_down</i></a></li>
          </ul>
          <ul id="nav-mobile" class="side-nav">
-            <li><a href="#intervenants">Intervenants</a></li>
+            <li><a href="liste-intervenants.html">Intervenants</a></li>
             <li><a href="#">Parcours</a></li>
-            <li><a href="#ues">UEs</a></li>
+            <li><a href="liste-unites.html">UEs</a></li>
          </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a></div>
    </nav>
    <div id="index-banner" class="section no-pad-bot">
@@ -39,24 +48,25 @@
    </div>
    <div class="container">
       <div class="section">
-         <div class="col s12 center">
-            <h4>Présentation du Master "Informatique"</h4>
-            <p class="left-align light">
-               Le master « informatique » a pour vocation la formation de professionnels de l'informatique
-               au niveau
+         <div class="col s12">
+            <h4 class="center">Présentation du Master "Informatique"</h4>
+            <p>
+               Le master « informatique » a pour vocation la formation de professionnels de
+               l'informatique au niveau
                bac+5.
                L'objectif est d'offrir aux étudiants une large palette de compétences et de savoirs
                afin de rendre
                accessible des emplois de haut niveau dans le monde de la recherche,
                dans celui de l'entreprise ou dans d'autres organisations.
-               Notre ambition est de former des étudiants dont les compétences sont tout à fait comparables
-               à celles
+               Notre ambition est de former des étudiants dont les compétences sont tout à fait
+               comparables à celles
                acquises dans les meilleurs écoles d'ingénieurs.
-               Le Master informatique repose sur plus de 25 ans d'expérience d'enseignement d'informatique
-               sur
+               Le Master informatique repose sur plus de 25 ans d'expérience d'enseignement
+               d'informatique sur
                l'Université d'Aix-Marseille
                (maîtrise, DEA et DESS en informatique) et s'est structuré lors du passage au LMD.
-               Si vous n'êtes pas
+               Si
+               vous n'êtes pas
                familier des formations organisées suivant le schéma Licence/Master/Doctorat,
                nous vous conseillons de lire cette petite introduction.
                
@@ -66,20 +76,26 @@
    </div>
    <div class="container">
       <div class="section">
-         <div class="col s12 center">
-            <h4>Spécialités et options</h4>
-            <p class="left-align light">
+         <div class="col s12">
+            <h4 class="center">Spécialités et options</h4>
+            <p>
                Le tableau ci-dessous détaille l'architecture du Master Informatique.
                
             </p>
+            <ul>
+               <li><a href="#!" class="black-text">Master 1 Informatique</a></li>
+               <li><a href="#!" class="black-text">Master 2 : Spécialité GL</a></li>
+               <li><a href="#!" class="black-text">Master 2 : Spécialité FSI</a></li>
+               <li><a href="#!" class="black-text">Master 2 : Spécialité ISL</a></li>
+            </ul>
          </div>
       </div>
    </div>
    <div class="container">
       <div class="section">
-         <div class="col s12 center">
-            <h4>Débouchés et effectifs</h4>
-            <p class="left-align light">
+         <div class="col s12">
+            <h4 class="center">Débouchés et effectifs</h4>
+            <p>
                L'effectif du Tronc Commun (M1) est estimé à 150 étudiants. Une maîtrise d'Informatique
                sera délivrée à
                l'issue de cette première année.
@@ -91,13 +107,16 @@
                à 20 par parcours).
                
                A l'issue des spécialités à finalité recherche, l'étudiant a le choix entre préparer
-               une thèse de
-               doctorat, ce qui lui ouvre le chemin vers les organismes publics d'enseignement supérieur
-               et de
+               une
+               thèse de
+               doctorat, ce qui lui ouvre le chemin vers les organismes publics d'enseignement
+               supérieur et de
                recherche, et/ou occuper tout type de poste impliquant un travail de recherche, dans
-               un département de
+               un
+               département de
                recherche et développement par exemple, en France ou à l'étranger. L'effectif prévu
-               pour ces spécialités
+               pour
+               ces spécialités
                est de 50 places.
                
                
@@ -107,20 +126,23 @@
    </div>
    <div class="container">
       <div class="section">
-         <div class="col s12 center">
-            <h4>Descriptif rapide du système L.M.D.</h4>
-            <p class="left-align light">
+         <div class="col s12">
+            <h4 class="center">Descriptif rapide du système L.M.D.</h4>
+            <p>
                Le L.M.D. est structuré principalement en deux grades : la licence (trois années L1,
-               L2 et L3) et le
+               L2
+               et L3) et le
                master (deux années M1 et M2). Une année correspond à 60 crédits répartis en deux
                semestres de 30
                crédits chacun. Ces 30 crédits sont obtenus en suivant des unités d'enseignement (UE)
-               de 3 ou 6 crédits.
+               de
+               3 ou 6 crédits.
                Un crédit représente 10h de travail encadrées. Une année est donc prévue pour 600h.
-               Le schéma ci-dessous
+               Le
+               schéma ci-dessous
                explique les équivalences entre anciennes et nouvelles formations.
-               Les parcours de licence ou de master sont rangés dans un arbre à trois ou quatre niveaux.
-               A la racine on
+               Les parcours de licence ou de master sont rangés dans un arbre à trois ou quatre
+               niveaux. A la racine on
                trouve les domaines qui sont subdivisés en mentions. Les mentions peuvent être déclinées
                en spécialités
                elles mêmes contenant des options.
