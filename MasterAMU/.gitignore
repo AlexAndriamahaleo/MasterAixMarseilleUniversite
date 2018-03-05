@@ -13,7 +13,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.ear
 *.zip
@@ -33,3 +33,4 @@ gen
 src
 old
 www/test.html
+www/output.html

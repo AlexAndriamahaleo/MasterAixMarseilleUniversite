@@ -2,5 +2,5 @@
 
 Générer master.html
 
-`xsltproc -o master.html master.xsl masterinfo.univ-mrs.xml`
+`xsltproc -o master.html master.xsl masterinfo.univ-mrs.xml` [ obsolète ]
 
