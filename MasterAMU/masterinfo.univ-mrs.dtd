@@ -16,7 +16,11 @@
 
 <!ENTITY % paragraph    "#PCDATA | b | strong | i | a | u | ul | ol | table">
 
-<!ELEMENT master                (table-intervenants,parcours+)>
+<!ELEMENT master                (table-intervenants,unites,parcours+)>
+<!ELEMENT unites                  (ue)+>
+<!ATTLIST ue
+        role  (%obligatoire;|%option;|%bonus;)  #REQUIRED
+        >
 <!ELEMENT table-intervenants    (intervenant+)>
 <!ELEMENT intervenant           (nom,tel?,mail+,site-perso*)>
 <!ATTLIST intervenant
@@ -25,18 +29,18 @@
 <!ELEMENT list-intervenants     (ref-intervenant+)>
 <!ELEMENT ue                    (nom+,credits,description,plan?,list-lieu?,list-intervenants?)>
 <!ATTLIST ue
-        id  CDATA  #REQUIRED
+        id  ID  #REQUIRED
         >
 <!ELEMENT parcours              (nom,description,semestre+,list-intervenants,list-débouchés?)>
 <!ATTLIST parcours
         code ID #REQUIRED
         spec CDATA #REQUIRED
         >
-<!ELEMENT list-ue               (ue)+>
-<!ATTLIST ue
-        role  (%obligatoire;|%option;|%bonus;)  #REQUIRED
+<!ELEMENT list-ue               (ref-ue)+>
+<!ELEMENT ref-ue                EMPTY>
+<!ATTLIST ref-ue
+        ref IDREF #REQUIRED
         >
-
 <!ELEMENT list-lieu             (lieu-ens+)>
 <!ELEMENT ref-intervenant   EMPTY>
 <!ATTLIST ref-intervenant
