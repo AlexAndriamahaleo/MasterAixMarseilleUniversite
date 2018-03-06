@@ -28,6 +28,10 @@
         id  CDATA  #REQUIRED
         >
 <!ELEMENT parcours              (nom,description,semestre+,list-intervenants,list-débouchés?)>
+<!ATTLIST parcours
+        code ID #REQUIRED
+        spec CDATA #REQUIRED
+        >
 <!ELEMENT list-ue               (ue)+>
 <!ATTLIST ue
         role  (%obligatoire;|%option;|%bonus;)  #REQUIRED

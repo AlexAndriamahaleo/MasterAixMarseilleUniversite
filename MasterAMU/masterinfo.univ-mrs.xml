@@ -111,7 +111,7 @@
             <site-perso>http://www.lsis.org/sellamis/</site-perso>
         </intervenant>
     </table-intervenants>
-    <parcours>
+    <parcours code="M1" spec="Tron commun">
         <nom>Master 1 Informatique</nom>
         <description>
             L'objectif de cette première année est de donner les bases indispensables permettant,
@@ -601,7 +601,7 @@
             <ref-intervenant ref="morin"/>
         </list-intervenants>
     </parcours>
-    <parcours>
+    <parcours code="GL" spec="Génie Logiciel">
         <nom>Master 2 : Spécialité GL</nom>
         <description>
             La production d'un logiciel est une tâche très complexe mettant en oeuvre plusieurs ressources, notamment humaines, matériels et technologiques. La spécialité « Génie logiciel » a pour objectif d'apporter aux étudiants les compétences approfondies requises pour pouvoir intervenir dans toutes les phases de la production logiciel.
@@ -677,7 +677,7 @@
             <métier>Consultant</métier>
         </list-débouchés>
     </parcours>
-    <parcours>
+    <parcours code="FSI" spec="Fiabilité, scurité et intégration logicielle">
         <nom>Master 2 : Spécialité FSI</nom>
         <description>La formation donne les principes et techniques liés à la conception de systèmes informatiques surs dans un environnement ouvert et hétérogène.
             Elle forme les étudiants aux principes et méthodes de développement modernes qui reposent sur des outils de prototypage, de test et de suivi de logiciels, avec des méthodologies normalisées.
@@ -971,7 +971,7 @@
             <métier>Ingénieur qualité</métier>
         </list-débouchés>
     </parcours>
-    <parcours>
+    <parcours code="ISL" spec="Fiabilité, scurité et intégration logicielle">
         <nom>Master 2 : Spécialité ISL</nom>
         <description>
             Le développement de l'Internet/Intranet et des applications associées a fait émerger de nouvelles normes pour la structuration des applications informatiques réparties. L'enjeu est de présenter des modèles (programmation par composants, par aspects, design pattern), des plateformes (JEE, .NET, Corba, etc.) et des outils (JAVA, SGBDOO, XML) qui offrent un cadre dans lequel les applications sont développées, validées et intégrées plus facilement.
