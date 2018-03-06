@@ -161,7 +161,7 @@
                 </div>
             </div>
 
-            <xsl:result-document href="liste-intervenants.html" method="html">
+            <xsl:result-document href="liste_intervenants.html" method="html">
                 <xsl:call-template name="build_head"/>
                 <body class="block amber darken-1">
                     <xsl:call-template name="build_nav"/>
@@ -179,7 +179,7 @@
                 </body>
             </xsl:result-document>
 
-            <xsl:result-document href="liste-unites.html" method="html">
+            <xsl:result-document href="liste_unites.html" method="html">
                 <xsl:call-template name="build_head"/>
                 <body class="block amber darken-1">
                     <xsl:call-template name="build_nav"/>
@@ -234,13 +234,13 @@
             </a>
             <ul>
                 <li>
-                    <a class="btn-floating blue darken-1 tooltipped" href="liste-intervenants.html" data-position="left"
+                    <a class="btn-floating blue darken-1 tooltipped" href="liste_intervenants.html" data-position="left"
                        data-delay="50" data-tooltip="Intervenants">
                         <i class="material-icons">account_box</i>
                     </a>
                 </li>
                 <li>
-                    <a class="btn-floating blue darken-2 tooltipped" href="liste-unites.html" data-position="left"
+                    <a class="btn-floating blue darken-2 tooltipped" href="liste_unites.html" data-position="left"
                        data-delay="50" data-tooltip="UEs">
                         <i class="material-icons">school</i>
                     </a>
@@ -250,7 +250,7 @@
 
         <ul id="index1" class="dropdown-content center">
             <li>
-                <a href="liste-intervenants.html">Intervenants</a>
+                <a href="liste_intervenants.html">Intervenants</a>
             </li>
             <li class="divider"/>
             <li>
@@ -258,7 +258,7 @@
             </li>
             <li class="divider"/>
             <li>
-                <a href="liste-unites.html">UEs</a>
+                <a href="liste_unites.html">UEs</a>
             </li>
         </ul>
 
@@ -275,13 +275,13 @@
 
                 <ul id="nav-mobile" class="side-nav">
                     <li>
-                        <a href="liste-intervenants.html">Intervenants</a>
+                        <a href="liste_intervenants.html">Intervenants</a>
                     </li>
                     <li>
                         <a href="#">Parcours</a>
                     </li>
                     <li>
-                        <a href="liste-unites.html">UEs</a>
+                        <a href="liste_unites.html">UEs</a>
                     </li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse">
@@ -433,7 +433,7 @@
         https://www.oxygenxml.com/archives/xsl-list/201304/msg00022.html
          -->
         <xsl:if test="not(preceding::*[@id=current()/@id])">
-            <xsl:result-document href="unites_{@id}.html" method="html">
+            <xsl:result-document href="{@id}.html" method="html">
                 <xsl:call-template name="build_head"/>
                 <body class="block amber darken-1">
                     <xsl:call-template name="build_nav"/>
@@ -524,7 +524,7 @@
     <!-- CRÉE LE LIEN VERS LA FICHE DE L'UE -->
     <xsl:template match="ue" mode="ref">
         <xsl:element name="a">
-            <xsl:attribute name="href">unites_<xsl:value-of select="@id"/>.html</xsl:attribute>
+            <xsl:attribute name="href"><xsl:value-of select="@id"/>.html</xsl:attribute>
             <xsl:attribute name="class">black-text</xsl:attribute>
             <xsl:attribute name="style">font-size: large;</xsl:attribute>
             <xsl:value-of select="@id"/>
@@ -536,8 +536,42 @@
     <!-- ********************* PARCOURS ********************* -->
 
     <xsl:template name="build_parcours_index">
+
+        <xsl:result-document href="liste_parcours.html" method="html">
+            <xsl:call-template name="build_head"/>
+            <xsl:call-template name="build_nav"/>
+            <main>
+                <div class="container">
+                    <div id="index-banner" class="section no-pad-bot">
+                        <div class="container">
+                            <br/>
+                            <br/>
+                            <h2 class="header center black-text text-lighten-2"><xsl:value-of select="nom"/></h2>
+                            <div class="row center">
+                                <h5 class="header col s12 light">Initiative d'excellence...</h5>
+                            </div>
+                            <br/>
+                            <br/>
+
+                        </div>
+                    </div>
+                    <ul>
+                        <xsl:for-each select="//parcours">
+                            <xsl:variable name="code" select="@code"/>
+                            <li>
+                                <a href="parcours_{$code}.html" class="black-text"><xsl:value-of select="nom"/></a>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </div>
+            </main>
+            <xsl:call-template name="build_footer"/>
+        </xsl:result-document>
+
+
         <xsl:for-each select="//parcours">
-            <xsl:variable name="pc" select="nom"/>
+
+            <!--<xsl:variable name="pc" select="nom"/>
             <xsl:variable name="pc2" select="translate($pc,' ','_')"/>
             <xsl:variable name="pc3" select="replace($pc2,':','')"/>
             <xsl:variable name="pc4" select="replace($pc3, 'é', 'e')"/>
@@ -545,7 +579,15 @@
             <li>
                 <a href="parcours_{$pc5}.html" class="black-text"><xsl:value-of select="nom"/></a>
             </li>
-            <xsl:result-document href="parcours_{$pc5}.html" method="html">
+            <xsl:result-document href="parcours_{$pc5}.html" method="html">-->
+
+            <xsl:variable name="code" select="@code"/>
+
+            <li>
+                <a href="parcours_{$code}.html" class="black-text"><xsl:value-of select="nom"/></a>
+            </li>
+
+            <xsl:result-document href="parcours_{$code}.html" method="html">
                 <xsl:call-template name="build_head"/>
                 <xsl:call-template name="build_nav"/>
                 <main>
@@ -567,6 +609,8 @@
                             <p>
                                 TEMPLATE POUR DÉCRIRE LE PARCOURS !!!!!
                                 <xsl:value-of select="@code"/>
+                            </p>
+                            <p>
                                 <xsl:value-of select="@spec"/>
                             </p>
                         </div>

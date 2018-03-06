@@ -33,7 +33,7 @@
         </intervenant>
         <intervenant id="denis">
             <nom>Francois DENIS</nom>
-            <mail>francoi.denis@&dom.lif;</mail>
+            <mail>francois.denis@&dom.lif;</mail>
             <site-perso>http://pageperso.lif.univ-mrs.fr/~francois.denis/</site-perso>
         </intervenant>
         <intervenant id="favre">
@@ -43,7 +43,7 @@
         </intervenant>
         <intervenant id="godard">
             <nom>Emmanuel GODARD</nom>
-            <mail>emmanel.godard@&dom.lif;</mail>
+            <mail>emmanuel.godard@&dom.lif;</mail>
             <site-perso>http://www.lif.univ-mrs.fr/~egodard</site-perso>
         </intervenant>
         <intervenant id="habet">
@@ -64,7 +64,7 @@
         </intervenant>
         <intervenant id="massat">
             <nom>Jean Luc MASSAT</nom>
-            <mail>jeanlus.massat@&dom.lif;</mail>
+            <mail>jeanluc.massat@&dom.lif;</mail>
             <site-perso>http://jean-luc.massat.perso.luminy.univ-amu.fr/ens/</site-perso>
         </intervenant>
         <intervenant id="niebert">
@@ -972,7 +972,7 @@
             </description>
         </ue>
     </unites>
-    <parcours code="M1" spec="Tron commun">
+    <parcours code="M1" spec="Tronc commun">
         <nom>Master 1</nom>
         <description>
             L'objectif de cette première année est de donner les bases indispensables permettant,
