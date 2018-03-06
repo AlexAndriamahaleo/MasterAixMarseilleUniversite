@@ -566,6 +566,8 @@
                         <div class="container">
                             <p>
                                 TEMPLATE POUR DÉCRIRE LE PARCOURS !!!!!
+                                <xsl:value-of select="@code"/>
+                                <xsl:value-of select="@spec"/>
                             </p>
                         </div>
                     </div>
