@@ -23,119 +23,116 @@
 
             <xsl:call-template name="build_head"/>
 
-            <body class="block amber darken-1">
+            <body class="block blue-grey lighten-4">
 
                 <xsl:call-template name="build_nav"/>
 
-                <div id="index-banner" class="section no-pad-bot">
+                <div class="container amber darken-1">
+                    <div id="index-banner" class="section no-pad-bot">
+                        <div class="container">
+                            <br/>
+                            <br/>
+                            <h1 class="header center black-text text-lighten-2">Master Informatique de Marseille</h1>
+                            <div class="row center">
+                                <h5 class="header col s12 light">Initiative d'excellence...</h5>
+                            </div>
+                            <!--<div class="row center">
+                                <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+                            </div>-->
+                            <br/>
+                            <br/>
+
+                        </div>
+                    </div>
+                    <div class="container ">
+                        <div class="section">
+                            <div class="col s12">
+                                <h4 class="center">Présentation du Master "Informatique"</h4>
+                                <p>
+                                    Le master « informatique » a pour vocation la formation de professionnels de
+                                    l'informatique au niveau
+                                    bac+5.
+                                    L'objectif est d'offrir aux étudiants une large palette de compétences et de savoirs
+                                    afin de rendre
+                                    accessible des emplois de haut niveau dans le monde de la recherche,
+                                    dans celui de l'entreprise ou dans d'autres organisations.
+                                    Notre ambition est de former des étudiants dont les compétences sont tout à fait
+                                    comparables à celles
+                                    acquises dans les meilleurs écoles d'ingénieurs.
+                                    Le Master informatique repose sur plus de 25 ans d'expérience d'enseignement
+                                    d'informatique sur
+                                    l'Université d'Aix-Marseille
+                                    (maîtrise, DEA et DESS en informatique) et s'est structuré lors du passage au LMD. Si
+                                    vous n'êtes pas
+                                    familier des formations organisées suivant le schéma Licence/Master/Doctorat,
+                                    nous vous conseillons de lire cette petite introduction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="container">
-                        <br/>
-                        <br/>
-                        <h1 class="header center black-text text-lighten-2">Master Informatique de Marseille</h1>
-                        <div class="row center">
-                            <h5 class="header col s12 light">Initiative d'excellence...</h5>
-                        </div>
-                        <!--<div class="row center">
-                            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-                        </div>-->
-                        <br/>
-                        <br/>
-
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="section">
-                        <div class="col s12">
-                            <h4 class="center">Présentation du Master "Informatique"</h4>
-                            <p>
-                                Le master « informatique » a pour vocation la formation de professionnels de
-                                l'informatique au niveau
-                                bac+5.
-                                L'objectif est d'offrir aux étudiants une large palette de compétences et de savoirs
-                                afin de rendre
-                                accessible des emplois de haut niveau dans le monde de la recherche,
-                                dans celui de l'entreprise ou dans d'autres organisations.
-                                Notre ambition est de former des étudiants dont les compétences sont tout à fait
-                                comparables à celles
-                                acquises dans les meilleurs écoles d'ingénieurs.
-                                Le Master informatique repose sur plus de 25 ans d'expérience d'enseignement
-                                d'informatique sur
-                                l'Université d'Aix-Marseille
-                                (maîtrise, DEA et DESS en informatique) et s'est structuré lors du passage au LMD. Si
-                                vous n'êtes pas
-                                familier des formations organisées suivant le schéma Licence/Master/Doctorat,
-                                nous vous conseillons de lire cette petite introduction.
-                            </p>
+                        <div class="section">
+                            <div class="col s12">
+                                <h4 class="center">Spécialités et options</h4>
+                                <p>
+                                    Le tableau ci-dessous détaille l'architecture du Master Informatique.
+                                </p>
+                                <ul>
+                                    <xsl:call-template name="build_parcours_index"/>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="section">
-                        <div class="col s12">
-                            <h4 class="center">Spécialités et options</h4>
-                            <p>
-                                Le tableau ci-dessous détaille l'architecture du Master Informatique.
-                            </p>
-                            <ul>
-                                <xsl:for-each select="//parcours">
-                                    <li>
-                                        <a href="#!" class="black-text"><xsl:value-of select="nom"/></a>
-                                    </li>
-                                </xsl:for-each>
-                            </ul>
+                    <div class="container">
+                        <div class="section">
+                            <div class="col s12">
+                                <h4 class="center">Débouchés et effectifs</h4>
+                                <p>
+                                    L'effectif du Tronc Commun (M1) est estimé à 150 étudiants. Une maîtrise d'Informatique
+                                    sera délivrée à
+                                    l'issue de cette première année.
+
+                                    Les spécialités à finalité professionnelle du Master débouchent sur des emplois de
+                                    niveau ingénieur et
+                                    chef de projet en informatique. L'effectif prévu pour ces spécialités est d'une centaine
+                                    d'étudiants (15
+                                    à 20 par parcours).
+
+                                    A l'issue des spécialités à finalité recherche, l'étudiant a le choix entre préparer une
+                                    thèse de
+                                    doctorat, ce qui lui ouvre le chemin vers les organismes publics d'enseignement
+                                    supérieur et de
+                                    recherche, et/ou occuper tout type de poste impliquant un travail de recherche, dans un
+                                    département de
+                                    recherche et développement par exemple, en France ou à l'étranger. L'effectif prévu pour
+                                    ces spécialités
+                                    est de 50 places.
+
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="section">
-                        <div class="col s12">
-                            <h4 class="center">Débouchés et effectifs</h4>
-                            <p>
-                                L'effectif du Tronc Commun (M1) est estimé à 150 étudiants. Une maîtrise d'Informatique
-                                sera délivrée à
-                                l'issue de cette première année.
-
-                                Les spécialités à finalité professionnelle du Master débouchent sur des emplois de
-                                niveau ingénieur et
-                                chef de projet en informatique. L'effectif prévu pour ces spécialités est d'une centaine
-                                d'étudiants (15
-                                à 20 par parcours).
-
-                                A l'issue des spécialités à finalité recherche, l'étudiant a le choix entre préparer une
-                                thèse de
-                                doctorat, ce qui lui ouvre le chemin vers les organismes publics d'enseignement
-                                supérieur et de
-                                recherche, et/ou occuper tout type de poste impliquant un travail de recherche, dans un
-                                département de
-                                recherche et développement par exemple, en France ou à l'étranger. L'effectif prévu pour
-                                ces spécialités
-                                est de 50 places.
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="section">
-                        <div class="col s12">
-                            <h4 class="center">Descriptif rapide du système L.M.D.</h4>
-                            <p>
-                                Le L.M.D. est structuré principalement en deux grades : la licence (trois années L1, L2
-                                et L3) et le
-                                master (deux années M1 et M2). Une année correspond à 60 crédits répartis en deux
-                                semestres de 30
-                                crédits chacun. Ces 30 crédits sont obtenus en suivant des unités d'enseignement (UE) de
-                                3 ou 6 crédits.
-                                Un crédit représente 10h de travail encadrées. Une année est donc prévue pour 600h. Le
-                                schéma ci-dessous
-                                explique les équivalences entre anciennes et nouvelles formations.
-                                Les parcours de licence ou de master sont rangés dans un arbre à trois ou quatre
-                                niveaux. A la racine on
-                                trouve les domaines qui sont subdivisés en mentions. Les mentions peuvent être déclinées
-                                en spécialités
-                                elles mêmes contenant des options.
-                            </p>
+                    <div class="container">
+                        <div class="section">
+                            <div class="col s12">
+                                <h4 class="center">Descriptif rapide du système L.M.D.</h4>
+                                <p>
+                                    Le L.M.D. est structuré principalement en deux grades : la licence (trois années L1, L2
+                                    et L3) et le
+                                    master (deux années M1 et M2). Une année correspond à 60 crédits répartis en deux
+                                    semestres de 30
+                                    crédits chacun. Ces 30 crédits sont obtenus en suivant des unités d'enseignement (UE) de
+                                    3 ou 6 crédits.
+                                    Un crédit représente 10h de travail encadrées. Une année est donc prévue pour 600h. Le
+                                    schéma ci-dessous
+                                    explique les équivalences entre anciennes et nouvelles formations.
+                                    Les parcours de licence ou de master sont rangés dans un arbre à trois ou quatre
+                                    niveaux. A la racine on
+                                    trouve les domaines qui sont subdivisés en mentions. Les mentions peuvent être déclinées
+                                    en spécialités
+                                    elles mêmes contenant des options.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -414,7 +411,7 @@
 
     <!-- *********************/////////////********************* -->
 
-    <!-- ********************* UEs M1 ********************* -->
+    <!-- ********************* UEs ********************* -->
 
     <!-- CRÉE LA LISTE DES UEs -->
     <xsl:template name="list-unites">
@@ -444,7 +441,6 @@
                         <div class="container">
                             <div class="section">
                                 <div class="col s12 m12 l12">
-
                                     <xsl:for-each select=".">
                                         <div>
                                             <xsl:attribute name="id">
@@ -461,7 +457,7 @@
                                                     <blockquote>
                                                         Résumé:
                                                         <br/>
-                                                        <xsl:copy-of select="description/*"/>
+                                                        <xsl:copy-of select="description/node()"/>
                                                     </blockquote>
                                                 </xsl:when>
                                                 <xsl:otherwise>
@@ -533,6 +529,50 @@
             <xsl:attribute name="style">font-size: large;</xsl:attribute>
             <xsl:value-of select="@id"/>
         </xsl:element>
+    </xsl:template>
+
+    <!-- *********************/////////////********************* -->
+
+    <!-- ********************* PARCOURS ********************* -->
+
+    <xsl:template name="build_parcours_index">
+        <xsl:for-each select="//parcours">
+            <xsl:variable name="pc" select="nom"/>
+            <xsl:variable name="pc2" select="translate($pc,' ','_')"/>
+            <xsl:variable name="pc3" select="replace($pc2,':','')"/>
+            <xsl:variable name="pc4" select="replace($pc3, 'é', 'e')"/>
+            <xsl:variable name="pc5" select="replace($pc4,'__','_')"/>
+            <li>
+                <a href="parcours_{$pc5}.html" class="black-text"><xsl:value-of select="nom"/></a>
+            </li>
+            <xsl:result-document href="parcours_{$pc5}.html" method="html">
+                <xsl:call-template name="build_head"/>
+                <xsl:call-template name="build_nav"/>
+                <main>
+                    <div class="container">
+                        <div id="index-banner" class="section no-pad-bot">
+                            <div class="container">
+                                <br/>
+                                <br/>
+                                <h2 class="header center black-text text-lighten-2"><xsl:value-of select="nom"/></h2>
+                                <div class="row center">
+                                    <h5 class="header col s12 light">Initiative d'excellence...</h5>
+                                </div>
+                                <br/>
+                                <br/>
+
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p>
+                                TEMPLATE POUR DÉCRIRE LE PARCOURS !!!!!
+                            </p>
+                        </div>
+                    </div>
+                </main>
+                <xsl:call-template name="build_footer"/>
+            </xsl:result-document>
+        </xsl:for-each>
     </xsl:template>
 
     <!-- *********************/////////////********************* -->
