@@ -173,7 +173,7 @@
                                 elles mêmes contenant des options.
                             </p>
                             <div class="container">
-                                <table summary="" class="bordered">
+                                <table class="bordered">
                                     <tbody><tr>
                                         <th rowspan="1" colspan="1">Année</th>
 
@@ -374,6 +374,7 @@
                         <xsl:attribute name="src">../img/logo_amu_rvb_noir.png</xsl:attribute>
                         <xsl:attribute name="style">height: 60px</xsl:attribute>
                         <xsl:attribute name="class">hide-on-med-and-down</xsl:attribute>
+                        <xsl:attribute name="alt">Image de fond</xsl:attribute>
                     </xsl:element>
                 </a>
                 <a id="logo-container" href="index.html" class="brand-logo center">Master Informatique <span class="hide-on-med-and-down">de Marseille</span></a>
@@ -389,6 +390,7 @@
                         <xsl:attribute name="src">../img/logo_sciences.png</xsl:attribute>
                         <xsl:attribute name="style">height: 60px</xsl:attribute>
                         <xsl:attribute name="class">right hide-on-med-and-down</xsl:attribute>
+                        <xsl:attribute name="alt">Image de fond</xsl:attribute>
                     </xsl:element>
                 </a>
 
@@ -515,6 +517,7 @@
                                         <xsl:element name="img">
                                             <xsl:attribute name="src">../img/avatar.png</xsl:attribute>
                                             <xsl:attribute name="style">height: 250px</xsl:attribute>
+                                            <xsl:attribute name="alt">Image de fond</xsl:attribute>
                                         </xsl:element>
                                     </div>
                                 </div>
@@ -773,9 +776,6 @@
                             <p>
                                 TEMPLATE POUR DÉCRIRE LE PARCOURS !!!!!
                                 <xsl:value-of select="@code"/>
-                            </p>
-                            <p>
-                                <xsl:value-of select="@spec"/>
                             </p>
                         </div>
                     </div>
