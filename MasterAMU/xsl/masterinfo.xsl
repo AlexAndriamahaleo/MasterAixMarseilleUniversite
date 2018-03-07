@@ -305,6 +305,8 @@
             </body>
             <xsl:call-template name="build_footer"/>
         </xsl:result-document>
+        <xsl:call-template name="fiche-intervenants"/>
+        <xsl:call-template name="fiche-unites"/>
 
         PROCESS FINISHED WITH EXIT CODE 0
 
