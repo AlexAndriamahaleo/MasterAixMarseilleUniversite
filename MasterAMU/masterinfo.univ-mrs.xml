@@ -9,6 +9,15 @@
             <mail>pablo.arrighi@&dom.amu;</mail>
             <site-perso>http://pageperso.lif.univ-mrs.fr/~pablo.arrighi/</site-perso>
         </intervenant>
+        <intervenant id="artieres">
+            <nom>Thierry ARTIÈRES</nom>
+            <mail>thierry.artieres@&dom.lif;</mail>
+        </intervenant>
+        <intervenant id="bechet">
+            <nom>Frederic BECHET</nom>
+            <tel>04 860 90 455</tel>
+            <mail>frederic.bechet@&dom.amu;</mail>
+        </intervenant>
         <intervenant id="boucelma">
             <nom>Omar BOUCELMA</nom>
             <mail>omar.boucelma@&dom.amu;</mail>
@@ -87,6 +96,11 @@
             <mail>fredric.olive@&dom.amu;</mail>
             <site-perso>http://pageperso.lif.univ-mrs.fr/~frederic.olive/</site-perso>
         </intervenant>
+        <intervenant id="olivetti">
+            <nom>Nicola OLIVETTI</nom>
+            <tel>04 860 91 046</tel>
+            <mail>nicola.olivetti@&dom.amu;</mail>
+        </intervenant>
         <intervenant id="perrot">
             <nom>Kevin PERROT</nom>
             <mail>kevin.perrot@&dom.mrs;</mail>
@@ -95,6 +109,10 @@
         <intervenant id="rene">
             <nom>Lydie RENE CHABAROT</nom>
             <mail>lydie.renechabarot@&dom.amu;</mail>
+        </intervenant>
+        <intervenant id="reynier">
+            <nom>Pierre-Allain REYNIER</nom>
+            <mail>pierre-alain.reynier@&dom.amu;</mail>
         </intervenant>
         <intervenant id="sabatier">
             <nom>Claude SABATIER</nom>
@@ -109,6 +127,11 @@
             <nom>Sana SELLAMI</nom>
             <mail>sana.sellami@lis-lab.org</mail>
             <site-perso>http://www.lsis.org/sellamis/</site-perso>
+        </intervenant>
+        <intervenant id="vaxes">
+            <nom>Yann VAXES</nom>
+            <tel>04 860 90 684</tel>
+            <mail>yann.vaxes@&dom.amu;</mail>
         </intervenant>
     </table-intervenants>
     <unites>
@@ -1562,7 +1585,7 @@
             <credits>24</credits>
         </ue>
     </unites>
-    <parcours code="M1" spec="Tronc commun">
+    <parcours code="M1">
         <nom>Master 1</nom>
         <description>
             L'objectif de cette première année est de donner les bases indispensables permettant,
@@ -1608,105 +1631,417 @@
             <ref-intervenant ref="morin"/>
         </list-intervenants>
     </parcours>
-    <parcours code="GL" spec="Génie Logiciel">
-        <nom>Génie Logiciel</nom>
+    <specialite id="FSIL">
+        <nom>Fiabilité, sécurité et intégration logicielle</nom>
         <description>
-            La production d'un logiciel est une tâche très complexe mettant en oeuvre plusieurs ressources, notamment humaines, matériels et technologiques. La spécialité « Génie logiciel » a pour objectif d'apporter aux étudiants les compétences approfondies requises pour pouvoir intervenir dans toutes les phases de la production logiciel.
+            Cette spécialité à finalité professionnelle est une composante du Master Informatique. Elle est déclinée en deux parcours qui partagent un tronc-commun au début de la deuxième année (semestre 3). Consultez ces deux parcours pour avoir une information plus précise :
         </description>
-        <semestre id="M2GLS3" ref="S3">
-            <list-ue>
-                <ref-ue ref="ENSINCU41"/>
-                <ref-ue ref="ENSINCU42"/>
-                <ref-ue ref="ENSINCU43"/>
-                <ref-ue ref="ENSINCU46"/>
-            </list-ue>
-        </semestre>
-        <semestre id="M2GLS4" ref="S4">
-            <list-ue>
-                <ref-ue ref="ENSINDU3"/>
-                <ref-ue ref="ENSINDU4"/>
-            </list-ue>
-        </semestre>
-        <list-intervenants>
-            <ref-intervenant ref="habet"/>
-        </list-intervenants>
-        <list-débouchés>
-            <métier>Ingénieur informaticien</métier>
-            <métier>Ingénieur d’études et de développement</métier>
-            <métier>Ingénieur qualité logicielle</métier>
-            <métier>Architecte JEE</métier>
-            <métier>Architecte d’applications</métier>
-            <métier>Développeur et concepteur d’applications</métier>
-            <métier>Ingénieur développeur Web</métier>
-            <métier>Chef de projets</métier>
-            <métier>Consultant</métier>
-        </list-débouchés>
-    </parcours>
-    <parcours code="FSI" spec="Fiabilité, scurité et intégration logicielle">
-        <nom>Fiabilité et sécurité informatique</nom>
-        <description>La formation donne les principes et techniques liés à la conception de systèmes informatiques surs dans un environnement ouvert et hétérogène.
-            Elle forme les étudiants aux principes et méthodes de développement modernes qui reposent sur des outils de prototypage, de test et de suivi de logiciels, avec des méthodologies normalisées.
-            Elle apporte des compétences fortes en sécurité informatique dans les domaines liés à l'échange d'information (Web-services,
-            protocoles de communication et cryptographiques,..) et à la communication entre systèmes (réseaux hétérogènes et applications embarquées ou distribuées).</description>
-        <semestre id="M2FSIS3" ref="S3">
-            <list-ue>
-                <ref-ue ref="ENSINCU27"/>
-                <ref-ue ref="ENSINCU28"/>
-                <ref-ue ref="ENSINCU29"/>
-                <ref-ue ref="ENSINCU30"/>
-                <ref-ue ref="ENSINCU31"/>
-                <ref-ue ref="ENSINCU67"/>
-                <ref-ue ref="ENSINCU32"/>
-                <ref-ue ref="ENSINCU33"/>
-                <ref-ue ref="ENSINCU34"/>
-                <ref-ue ref="ENSINCU35"/>
-            </list-ue>
-        </semestre>
-        <semestre id="M2FSIS4" ref="S4">
-            <list-ue>
-                <ref-ue ref="ENSINDU3"/>
-                <ref-ue ref="ENSINDU4"/>
-            </list-ue>
-        </semestre>
-        <list-intervenants>
-            <ref-intervenant ref="godard"/>
-        </list-intervenants>
-        <list-débouchés>
-            <métier>Ingénieur études et développement</métier>
-            <métier>Responsable réseaux</métier>
-            <métier>Responsable systèmes et sécurité</métier>
-            <métier>Ingénieur qualité</métier>
-        </list-débouchés>
-    </parcours>
-    <parcours code="ISL" spec="Fiabilité, scurité et intégration logicielle">
-        <nom>Intégration de systèmes logiciels</nom>
+        <parcours code="FSI">
+            <nom>Fiabilité et sécurité informatique</nom>
+            <description>La formation donne les principes et techniques liés à la conception de systèmes informatiques surs dans un environnement ouvert et hétérogène.
+                Elle forme les étudiants aux principes et méthodes de développement modernes qui reposent sur des outils de prototypage, de test et de suivi de logiciels, avec des méthodologies normalisées.
+                Elle apporte des compétences fortes en sécurité informatique dans les domaines liés à l'échange d'information (Web-services,
+                protocoles de communication et cryptographiques,..) et à la communication entre systèmes (réseaux hétérogènes et applications embarquées ou distribuées).</description>
+            <semestre id="M2FSIS3" ref="S3">
+                <list-ue>
+                    <ref-ue ref="ENSINCU27"/>
+                    <ref-ue ref="ENSINCU28"/>
+                    <ref-ue ref="ENSINCU29"/>
+                    <ref-ue ref="ENSINCU30"/>
+                    <ref-ue ref="ENSINCU31"/>
+                    <ref-ue ref="ENSINCU67"/>
+                    <ref-ue ref="ENSINCU32"/>
+                    <ref-ue ref="ENSINCU33"/>
+                    <ref-ue ref="ENSINCU34"/>
+                    <ref-ue ref="ENSINCU35"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2FSIS4" ref="S4">
+                <list-ue>
+                    <ref-ue ref="ENSINDU3"/>
+                    <ref-ue ref="ENSINDU4"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="godard"/>
+            </list-intervenants>
+            <list-débouchés>
+                <métier>Ingénieur études et développement</métier>
+                <métier>Responsable réseaux</métier>
+                <métier>Responsable systèmes et sécurité</métier>
+                <métier>Ingénieur qualité</métier>
+            </list-débouchés>
+        </parcours>
+        <parcours code="ISL">
+            <nom>Intégration de systèmes logiciels</nom>
+            <description>
+                Le développement de l'Internet/Intranet et des applications associées a fait émerger de nouvelles normes pour la structuration des applications informatiques réparties. L'enjeu est de présenter des modèles (programmation par composants, par aspects, design pattern), des plateformes (JEE, .NET, Corba, etc.) et des outils (JAVA, SGBDOO, XML) qui offrent un cadre dans lequel les applications sont développées, validées et intégrées plus facilement.
+                L'objectif de ce parcours est d'initier les étudiants à la conception et à la réalisation d'applications dans de tels cadres. La formation mettra plus particulièrement l'accent sur les notions d'architecture logicielle, de programmation par composants, de qualité et de fiabilité. Elle utilisera la plateforme Java Enterprise Edition pour concrétiser les concepts présentés.
+            </description>
+            <semestre id="M2ISLS3" ref="S3">
+                <list-ue>
+                    <ref-ue ref="ENSINCU27"/>
+                    <ref-ue ref="ENSINCU28"/>
+                    <ref-ue ref="ENSINCU29"/>
+                    <ref-ue ref="ENSINCU30"/>
+                    <ref-ue ref="ENSINCU31"/>
+                    <ref-ue ref="ENSINCU67"/>
+                    <ref-ue ref="ENSINCU36"/>
+                    <ref-ue ref="ENSINCU37"/>
+                    <ref-ue ref="ENSINCU38"/>
+                    <ref-ue ref="ENSINCU39"/>
+                    <ref-ue ref="ENSINCU40"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2ISLS4" ref="S4">
+                <list-ue>
+                    <ref-ue ref="ENSINDU3"/>
+                    <ref-ue ref="ENSINDU4"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="massat"/>
+            </list-intervenants>
+        </parcours>
+    </specialite>
+    <specialite id="GeL"> <!-- EN PARLER -->
+        <parcours code="GL">
+            <nom>Génie Logiciel</nom>
+            <description>
+                La production d'un logiciel est une tâche très complexe mettant en oeuvre plusieurs ressources, notamment humaines, matériels et technologiques. La spécialité « Génie logiciel » a pour objectif d'apporter aux étudiants les compétences approfondies requises pour pouvoir intervenir dans toutes les phases de la production logiciel.
+            </description>
+            <semestre id="M2GLS3" ref="S3">
+                <list-ue>
+                    <ref-ue ref="ENSINCU41"/>
+                    <ref-ue ref="ENSINCU42"/>
+                    <ref-ue ref="ENSINCU43"/>
+                    <ref-ue ref="ENSINCU46"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2GLS4" ref="S4">
+                <list-ue>
+                    <ref-ue ref="ENSINDU3"/>
+                    <ref-ue ref="ENSINDU4"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="habet"/>
+            </list-intervenants>
+            <list-débouchés>
+                <métier>Ingénieur informaticien</métier>
+                <métier>Ingénieur d’études et de développement</métier>
+                <métier>Ingénieur qualité logicielle</métier>
+                <métier>Architecte JEE</métier>
+                <métier>Architecte d’applications</métier>
+                <métier>Développeur et concepteur d’applications</métier>
+                <métier>Ingénieur développeur Web</métier>
+                <métier>Chef de projets</métier>
+                <métier>Consultant</métier>
+            </list-débouchés>
+        </parcours>
+    </specialite>
+    <specialite id="ID">
+        <nom>Informatique décisionnelle</nom>
         <description>
-            Le développement de l'Internet/Intranet et des applications associées a fait émerger de nouvelles normes pour la structuration des applications informatiques réparties. L'enjeu est de présenter des modèles (programmation par composants, par aspects, design pattern), des plateformes (JEE, .NET, Corba, etc.) et des outils (JAVA, SGBDOO, XML) qui offrent un cadre dans lequel les applications sont développées, validées et intégrées plus facilement.
-            L'objectif de ce parcours est d'initier les étudiants à la conception et à la réalisation d'applications dans de tels cadres. La formation mettra plus particulièrement l'accent sur les notions d'architecture logicielle, de programmation par composants, de qualité et de fiabilité. Elle utilisera la plateforme Java Enterprise Edition pour concrétiser les concepts présentés.
+            Cette spécialité à finalité professionnelle est une composante du Master Informatique. Elle est déclinée en deux parcours qui partagent un tronc-commun au début de la deuxième année (semestre 3). Consultez ces deux parcours pour avoir une information plus précise :
         </description>
-        <semestre id="M2ISLS3" ref="S3">
-            <list-ue>
-                <ref-ue ref="ENSINCU27"/>
-                <ref-ue ref="ENSINCU28"/>
-                <ref-ue ref="ENSINCU29"/>
-                <ref-ue ref="ENSINCU30"/>
-                <ref-ue ref="ENSINCU31"/>
-                <ref-ue ref="ENSINCU67"/>
-                <ref-ue ref="ENSINCU36"/>
-                <ref-ue ref="ENSINCU37"/>
-                <ref-ue ref="ENSINCU38"/>
-                <ref-ue ref="ENSINCU39"/>
-                <ref-ue ref="ENSINCU40"/>
-            </list-ue>
-        </semestre>
-        <semestre id="M2ISLS4" ref="S4">
-            <list-ue>
-                <ref-ue ref="ENSINDU3"/>
-                <ref-ue ref="ENSINDU4"/>
-            </list-ue>
-        </semestre>
-        <list-intervenants>
-            <ref-intervenant ref="massat"/>
-        </list-intervenants>
-    </parcours>
+        <parcours code="FED">
+            <nom>Fouille et entrepôts de données</nom>
+            <description>
+                Ce parcours permet aux étudiants d’approfondir les connaissances qu'ils doivent maîtriser pour appréhender le cycle de vie complet des bases et entrepôts de données : de leur conception à leur administration, en passant par les architectures logicielles des systèmes de bases de données, et les divers formats d'échanges à travers le web.
+                Une attention particulière est portée à l'étude des techniques de fouille et d'extraction de connaissances à partir de données. La Fouille de Données ou l'Extraction de Connaissances à partir de Bases de données désigne un domaine de compétences dont l'objectif est de rechercher et découvrir des informations, nouvelles et utiles, dans
+                des données le plus souvent volumineuses et hétérogènes. La fouille de données rassemble des professionnels de plusieurs disciplines : des spécialistes en bases et entrepôts de données, en analyse des données, ayant aussi des connaissances de bases en recherche opérationnelle.
+            </description>
+            <semestre id="M2FEDS3" ref="S3">
+                <list-ue>
+                    <ref-ue ref="ENSINCU27"/>
+                    <ref-ue ref="ENSINCU28"/>
+                    <ref-ue ref="ENSINCU30"/>
+                    <ref-ue ref="ENSINCU40"/>
+                    <ref-ue ref="ENSINCU48"/>
+                    <ref-ue ref="ENSINCU49"/>
+                    <ref-ue ref="ENSINCU50"/>
+                    <ref-ue ref="ENSINCU53"/>
+                    <ref-ue ref="ENSINCU72"/>
+                    <ref-ue ref="ENSINCU67"/>
+                    <ref-ue ref="ENSINCU73"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2FEDS4" ref="S4">
+                <list-ue>
+                    <ref-ue ref="ENSINDU3"/>
+                    <ref-ue ref="ENSINDU4"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="novelli"/>
+            </list-intervenants>
+            <list-débouchés>
+                <métier>Administrateur de bases de données ou d’entrepôts de données</métier>
+                <métier>Extraction, transformation et chargement des données.</métier>
+                <métier>Gestion, exploitation et optimisation de bases et entrepôts de données.</métier>
+                <métier>
+                    Mettre en place et exploiter toutes les phases du processus de l’informatique décisionnelle (compréhension et modélisation du problème, conception du système d’information nécessaire, indicateur de mesure pour réaliser les analyses pour la prise de décisions, les processus de fouille et d’optimisation, la restitution de l’analyse).
+                </métier>
+                <métier>Études et développement informatique.</métier>
+                <métier>Conseil et maîtrise d’ouvrage en système d’information</métier>
+                <métier>Expertise et support technique en système d’information</métier>
+                <métier>Administration de systèmes d'information</métier>
+            </list-débouchés>
+        </parcours>
+        <parcours code="RO">
+            <nom>Recherche opérationnelle</nom>
+            <description>
+                La recherche opérationnelle consiste à utiliser des méthodes et des modèles pour résoudre des problèmes complexes d'organisation, de planification, de gestion de ressources, ou d'optimisation issus de nombreux secteurs d'activités comme le transport, l'industrie, les télécommunications, la finance... La résolution de ces problèmes
+                constitue un enjeu économique et industriel important. La conception d'applications décisionnelles requiert une phase de spécification et d'extraction de données lors de laquelle les compétences acquises par les étudiants de la spécialité ID dans le domaine de la fouille et des entrepôts de données sera particulièrement utile.
+                Elle nécessite également des connaissances fondamentales dans le domaine de la modélisation et de l'optimisation et une très bonne maîtrise des outils nécessaires pour concevoir et développer des applications décisionnelles (langages de modélisation, solveurs, structures de données, algorithmes…).
+            </description>
+            <semestre id="M2ROS3" ref="S3">
+                <list-ue>
+                    <ref-ue ref="ENSINCU27"/>
+                    <ref-ue ref="ENSINCU28"/>
+                    <ref-ue ref="ENSINCU30"/>
+                    <ref-ue ref="ENSINCU40"/>
+                    <ref-ue ref="ENSINCU48"/>
+                    <ref-ue ref="ENSINCU49"/>
+                    <ref-ue ref="ENSINCU50"/>
+                    <ref-ue ref="ENSINCU53"/>
+                    <ref-ue ref="ENSINCU72"/>
+                    <ref-ue ref="ENSINCU67"/>
+                    <ref-ue ref="ENSINCU54"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2ROS4" ref="S4">
+                <list-ue>
+                    <ref-ue ref="ENSINDU3"/>
+                    <ref-ue ref="ENSINDU4"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="vaxes"/>
+            </list-intervenants>
+            <list-débouchés>
+                <métier>Administrateur de bases de données ou d’entrepôts de données</métier>
+                <métier>Extraction, transformation et chargement des données.</métier>
+                <métier>Gestion, exploitation et optimisation de bases et entrepôts de données.</métier>
+                <métier>
+                    Mettre en place et exploiter toutes les phases du processus de l’informatique décisionnelle (compréhension et modélisation du problème, conception du système d’information nécessaire, indicateur de mesure pour réaliser les analyses pour la prise de décisions, les processus de fouille et d’optimisation, la restitution de l’analyse).
+                </métier>
+                <métier>Études et développement informatique.</métier>
+                <métier>Conseil et maîtrise d’ouvrage en système d’information</métier>
+                <métier>Expertise et support technique en système d’information</métier>
+                <métier>Administration de systèmes d'information</métier>
+            </list-débouchés>
+        </parcours>
+    </specialite>
+    <specialite id="IFo"> <!-- EN PARLER -->
+        <parcours code="IF">
+            <nom>Informatique fondamentale</nom>
+            <description>
+                L'objectif de la spécialité Informatique Fondamentale est de donner des connaissances solides dans le domaine des fondements de l'informatique. Il s'agit d'acquérir des connaissances sur les concepts et les méthodes dans l es thèmes couverts par le Laboratoire d'Informatique Fondamentale.
+            </description>
+            <semestre id="M2IFS3" ref="S3">
+                <list-ue>
+                    <ref-ue ref="ENSINCU1"/>
+                    <ref-ue ref="ENSINCU2"/>
+                    <ref-ue ref="ENSINCU3"/>
+                    <ref-ue ref="ENSINCU4"/>
+                    <ref-ue ref="ENSINCU5"/>
+                    <ref-ue ref="ENSINCU6"/>
+                    <ref-ue ref="ENSINCU7"/>
+                    <ref-ue ref="ENSINCU8"/>
+                    <ref-ue ref="ENSINCU9"/>
+                    <ref-ue ref="ENSINCU10"/>
+                    <ref-ue ref="ENSINCU11"/>
+                    <ref-ue ref="ENSINCU12"/>
+                    <ref-ue ref="ENSINCU13"/>
+                    <ref-ue ref="ENSINCU14"/>
+                    <ref-ue ref="ENSINCU15"/>
+                    <ref-ue ref="ENSINCU16"/>
+                    <ref-ue ref="ENSINCU17"/>
+                    <ref-ue ref="ENSINCU18"/>
+                    <ref-ue ref="ENSINCU19"/>
+                    <ref-ue ref="ENSINCU20"/>
+                    <ref-ue ref="ENSINCU21"/>
+                    <ref-ue ref="ENSINCU22"/>
+                    <ref-ue ref="ENSINCU23"/>
+                    <ref-ue ref="ENSINCU24"/>
+                    <ref-ue ref="ENSINCU25"/>
+                    <ref-ue ref="ENSINCU26"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2IFS4" ref="S4">
+                <list-ue>
+                    <ref-ue ref="ENSINDU1"/>
+                    <ref-ue ref="ENSINDU2"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="artieres"/>
+                <ref-intervenant ref="reynier"/>
+            </list-intervenants>
+            <list-débouchés>
+                <métier>Emplois recherche et développement dans des entreprises privées ou des établissements publics, ou emploi d'enseignant-chercheur pour les étudiants qui poursuivent en thèse.</métier>
+            </list-débouchés>
+        </parcours>
+    </specialite>
+    <specialite id="RIMul">
+        <parcours code="RIM">
+            <nom>Recherche d'informations multimédia</nom>
+            <description>
+                L'objectif de la spécialité RIM est de former des spécialistes du traitement et de la recherche de contenus multimédias. Du point de vue des débouchés professionnels, cette formation vise à produire des informaticiens spécialistes du traitement des données multimédia et de la recherche d'information qui pourront s'intégrer dans des entreprises innovantes centrées autour des domaines du multimédia et de l'internet.
+            </description>
+            <semestre id="M2RIMS3">
+                <list-ue>
+                    <ref-ue ref="ENSINCU67"/>
+                    <ref-ue ref="ENSINCU56"/>
+                    <ref-ue ref="ENSINCU58"/>
+                    <ref-ue ref="ENSINCU59"/>
+                    <ref-ue ref="ENSINCU66"/>
+                    <ref-ue ref="ENSINCU69"/>
+                    <ref-ue ref="ENSINCU27"/>
+                    <ref-ue ref="ENSINCU28"/>
+                    <ref-ue ref="ENSINCU4"/>
+                    <ref-ue ref="ENSINCU5"/>
+                    <ref-ue ref="ENSINCU6"/>
+                    <ref-ue ref="ENSINCU7"/>
+                    <ref-ue ref="ENSINCU19"/>
+                    <ref-ue ref="ENSINCU20"/>
+                    <ref-ue ref="ENSINCU21"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2RIMS4">
+                <list-ue>
+                    <ref-ue ref="ENSINDU3"/>
+                    <ref-ue ref="ENSINDU4"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="bechet"/>
+            </list-intervenants>
+            <list-débouchés>
+                <métier>Cette formation vise à produire des informaticiens spécialistes du traitement des données multimédia et de la recherche d'information qui pourront s'intégrer dans les entreprises innovantes centrées autour des domaines du multimédia et de l'internet.</métier>
+            </list-débouchés>
+        </parcours>
+    </specialite>
+    <specialite id="SIRep">
+        <parcours code="SIR">
+            <nom>Systèmes d'informations répartis</nom>
+            <description>
+                Le programme vise la formation de spécialistes dans des métiers à forte valeur ajoutée au travers des compétences acquises dans trois domaines clés de l’informatique : les technologies avancées du Web (services web, multimédia, etc.), les nouveaux modes de développement du logiciel (Cloud, Mobile, etc.) et les processus métiers de l’entreprise.
+            </description>
+            <semestre id="M2SIRS3" ref="S3">
+                <list-ue>
+                    <ref-ue ref="ENSINCU60"/>
+                    <ref-ue ref="ENSINCU64"/>
+                    <ref-ue ref="ENSINCU65"/>
+                    <ref-ue ref="ENSINCU68"/>
+                    <ref-ue ref="ENSINCU74"/>
+                    <ref-ue ref="ENSINCU75"/>
+                    <ref-ue ref="ENSISCU28"/>
+                    <ref-ue ref="ENSINCU27"/>
+                    <ref-ue ref="ENSINCU28"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2SIRS4" ref="S4">
+                <list-ue>
+                    <ref-ue ref="ENSINDU3"/>
+                    <ref-ue ref="ENSINDU4"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="boucelma"/>
+            </list-intervenants>
+            <list-débouchés>
+                <métier>Architecte en Systèmes d’Information,</métier>
+                <métier>Ingénieur Développement Logiciels,</métier>
+                <métier>Ingénieur Intégration,</métier>
+                <métier>Consultant ERP/BPM,</métier>
+                <métier>Chef de projet.</métier>
+            </list-débouchés>
+        </parcours>
+    </specialite>
+    <specialite id="SIS">
+        <nom>Sciences de l'Information et des systèmes</nom>
+        <description>
+            Cette spécialité à finalité professionnelle est une composante du Master Informatique et du Master Image et Systèmes. Elle est déclinée en trois parcours mais un seul est disponible dans la mention Informatique. Consulter ce parcours pour avoir une information plus précise :
+        </description>
+        <parcours code="INF">
+            <nom>Informatique</nom>
+            <description>
+                L’objectif est d’approfondir les connaissances de bases en Informatique sur l’intelligence artificielle, les systèmes d’information, conception et vérification des systèmes, informatique décisionnelle.
+            </description>
+            <semestre id="M2INFS3">
+                <list-ue>
+                    <ref-ue ref="ENSISCU20"/>
+                    <ref-ue ref="ENSISCU21"/>
+                    <ref-ue ref="ENSISCU22"/>
+                    <ref-ue ref="ENSISCU23"/>
+                    <ref-ue ref="ENSISCU24"/>
+                    <ref-ue ref="ENSISCU25"/>
+                    <ref-ue ref="ENSISCU26"/>
+                    <ref-ue ref="ENSISCU27"/>
+                    <ref-ue ref="ENSISCU28"/>
+                    <ref-ue ref="ENSISCU29"/>
+                    <ref-ue ref="ENSISCU30"/>
+                    <ref-ue ref="ENSISCU31"/>
+                    <ref-ue ref="ENSISCU32"/>
+                    <ref-ue ref="ENSISCU1"/>
+                    <ref-ue ref="ENSISCU4"/>
+                    <ref-ue ref="ENSISCU5"/>
+                    <ref-ue ref="ENSISCU6"/>
+                    <ref-ue ref="ENSISCU7"/>
+                    <ref-ue ref="ENSISCU8"/>
+                    <ref-ue ref="ENSISCU55"/>
+                    <ref-ue ref="ENSISCU3"/>
+                    <ref-ue ref="ENSISCU2"/>
+                    <ref-ue ref="ENSISCU33"/>
+                    <ref-ue ref="ENSISCU34"/>
+                    <ref-ue ref="ENSISCU35"/>
+                    <ref-ue ref="ENSISCU36"/>
+                    <ref-ue ref="ENSISCU37"/>
+                    <ref-ue ref="ENSISCU38"/>
+                    <ref-ue ref="ENSISCU39"/>
+                    <ref-ue ref="ENSISCU40"/>
+                    <ref-ue ref="ENSISCU41"/>
+                    <ref-ue ref="ENSISCU42"/>
+                    <ref-ue ref="ENSISCU43"/>
+                    <ref-ue ref="ENSISCU44"/>
+                    <ref-ue ref="ENSISCU45"/>
+                    <ref-ue ref="ENSISCU46"/>
+                    <ref-ue ref="ENSISCU21"/>
+                    <ref-ue ref="ENSISCU22"/>
+                    <ref-ue ref="ENSISCU23"/>
+                    <ref-ue ref="ENSISCU24"/>
+                    <ref-ue ref="ENSISCU25"/>
+                    <ref-ue ref="ENSISCU26"/>
+                    <ref-ue ref="ENSISCU27"/>
+                    <ref-ue ref="ENSISCU28"/>
+                    <ref-ue ref="ENSISCU29"/>
+                    <ref-ue ref="ENSISCU30"/>
+                    <ref-ue ref="ENSISCU31"/>
+                    <ref-ue ref="ENSISCU32"/>
+                </list-ue>
+            </semestre>
+            <semestre id="M2INFS4">
+                <list-ue>
+                    <ref-ue ref="ENSISDU3"/>
+                    <ref-ue ref="ENSISDU4"/>
+                </list-ue>
+            </semestre>
+            <list-intervenants>
+                <ref-intervenant ref="olivetti"/>
+            </list-intervenants>
+            <list-débouchés>
+                <métier>
+                    Enseignants, Chercheurs et ingénieurs de recherche, experts, chef de projets R&amp;D en :
+
+                    ¤ systèmes d'information,
+                    ¤ intelligence artificielle,
+                    ¤ génie logiciel,
+                    ¤ imagerie numérique.
+                </métier>
+            </list-débouchés>
+        </parcours>
+    </specialite>
 </master>
