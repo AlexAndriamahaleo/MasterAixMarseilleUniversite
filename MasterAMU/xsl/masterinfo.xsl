@@ -187,7 +187,7 @@
                         <div id="ues" class="container">
                             <div class="section">
                                 <div class="col s12 ">
-                                    <h3>Liste des unités d'enseignement du Master 1 Informatique</h3>
+                                    <h3>Les unités d'enseignements</h3>
                                     <xsl:call-template name="list-unites"/>
                                 </div>
                             </div>
