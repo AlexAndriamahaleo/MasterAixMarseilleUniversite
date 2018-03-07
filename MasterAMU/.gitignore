@@ -32,5 +32,4 @@ out
 gen
 src
 old
-www/test.html
-www/output.html
+www/*.html
