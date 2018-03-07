@@ -208,11 +208,10 @@
     <xsl:template name="build_head">
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <title>Master Informatique de Marseille</title>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-            <link rel="stylesheet"
-                  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
+            <link type="text/css" rel="stylesheet" href="../tools/materialize.min.css" media="screen,projection"/>
             <style>
                 body {
                 display: flex;
@@ -322,8 +321,8 @@
                 </div>
             </div>
         </footer>
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"/>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"/>
+        <script type="text/javascript" src="../tools/jquery-3.2.1.min.js"/>
+        <script type="text/javascript" src="../tools/materialize.min.js"/>
     </xsl:template>
 
     <!-- *********************/////////////********************* -->
