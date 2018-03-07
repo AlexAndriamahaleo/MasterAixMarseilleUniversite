@@ -1891,7 +1891,7 @@
             <description>
                 L'objectif de la spécialité RIM est de former des spécialistes du traitement et de la recherche de contenus multimédias. Du point de vue des débouchés professionnels, cette formation vise à produire des informaticiens spécialistes du traitement des données multimédia et de la recherche d'information qui pourront s'intégrer dans des entreprises innovantes centrées autour des domaines du multimédia et de l'internet.
             </description>
-            <semestre id="M2RIMS3">
+            <semestre id="M2RIMS3" ref="S3">
                 <list-ue>
                     <ref-ue ref="ENSINCU67"/>
                     <ref-ue ref="ENSINCU56"/>
@@ -1910,7 +1910,7 @@
                     <ref-ue ref="ENSINCU21"/>
                 </list-ue>
             </semestre>
-            <semestre id="M2RIMS4">
+            <semestre id="M2RIMS4" ref="S4">
                 <list-ue>
                     <ref-ue ref="ENSINDU3"/>
                     <ref-ue ref="ENSINDU4"/>
@@ -1971,7 +1971,7 @@
             <description>
                 L’objectif est d’approfondir les connaissances de bases en Informatique sur l’intelligence artificielle, les systèmes d’information, conception et vérification des systèmes, informatique décisionnelle.
             </description>
-            <semestre id="M2INFS3">
+            <semestre id="M2INFS3" ref="S3">
                 <list-ue>
                     <ref-ue ref="ENSISCU20"/>
                     <ref-ue ref="ENSISCU21"/>
@@ -2023,7 +2023,7 @@
                     <ref-ue ref="ENSISCU32"/>
                 </list-ue>
             </semestre>
-            <semestre id="M2INFS4">
+            <semestre id="M2INFS4" ref="S4">
                 <list-ue>
                     <ref-ue ref="ENSISDU3"/>
                     <ref-ue ref="ENSISDU4"/>
