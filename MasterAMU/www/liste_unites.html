@@ -5,21 +5,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Master Informatique de Marseille</title>
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <link type="text/css" rel="stylesheet" href="../tools/materialize.min.css" media="screen,projection"><style>
-                body {
-                display: flex;
-                min-height: 100vh;
-                flex-direction: column;
-                }
-
-                main {
-                flex: 1 0 auto;
-                }
-            </style></head>
-<body class="block amber darken-1">
-   <div class="fixed-action-btn"><a class="btn-floating btn-large red"><i class="large material-icons">menu</i></a><ul>
-         <li><a class="btn-floating blue darken-1 tooltipped" href="liste_intervenants.html" data-position="left" data-delay="50" data-tooltip="Intervenants"><i class="material-icons">account_box</i></a></li>
-         <li><a class="btn-floating blue darken-2 tooltipped" href="liste_unites.html" data-position="left" data-delay="50" data-tooltip="UEs"><i class="material-icons">school</i></a></li>
+   <link type="text/css" rel="stylesheet" href="../tools/materialize.min.css" media="screen,projection">
+   <link href="../tools/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+</head>
+<body class="grey lighten-1">
+   <div class="fixed-action-btn"><a class="btn-floating btn-large amber darken-3"><i class="large material-icons">menu</i></a><ul>
+         <li><a class="btn-floating  amber lighten-3 tooltipped" href="liste_intervenants.html" data-position="left" data-delay="50" data-tooltip="Intervenants"><i class="material-icons">account_box</i></a></li>
+         <li><a class="btn-floating  amber lighten-2 tooltipped" href="liste_unites.html" data-position="left" data-delay="50" data-tooltip="UEs"><i class="material-icons">school</i></a></li>
+         <li><a class="btn-floating  amber lighten-1 tooltipped" href="index.html" data-position="left" data-delay="50" data-tooltip="Parcours"><i class="material-icons">trending_up</i></a></li>
       </ul>
    </div>
    <ul id="index1" class="dropdown-content center">
@@ -29,12 +22,11 @@
       <li class="divider"></li>
       <li><a href="liste_unites.html">UEs</a></li>
    </ul>
-   <nav class="blue darken-2" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo center">Master Informatique de Marseille</a><ul class="right hide-on-med-and-down">
-            <li><a class="dropdown-button" href="#" data-beloworigin="true" data-activates="index1">Menu
+   <nav class="blue darken-2 fixed" role="navigation">
+      <div class="nav-wrapper container"><a href="https://www.univ-amu.fr/fr" target="_blank"><img src="../img/logo_amu_rvb_noir.png" style="height: 60px" class="hide-on-med-and-down"></a><a id="logo-container" href="index.html" class="brand-logo center">Master Informatique <span class="hide-on-med-and-down">de Marseille</span></a><ul class="right hide-on-med-and-down">
+            <li><a class="dropdown-button black-text" href="#" data-beloworigin="true" data-activates="index1">Menu
                   <i class="material-icons right">arrow_drop_down</i></a></li>
-         </ul>
-         <ul id="nav-mobile" class="side-nav">
+         </ul><a href="https://sciences.univ-amu.fr/" target="_blank"><img src="../img/logo_sciences.png" style="height: 60px" class="right hide-on-med-and-down"></a><ul id="nav-mobile" class="side-nav">
             <li><a href="liste_intervenants.html">Intervenants</a></li>
             <li><a href="#">Parcours</a></li>
             <li><a href="liste_unites.html">UEs</a></li>
@@ -44,53 +36,55 @@
       <div id="ues" class="container">
          <div class="section">
             <div class="col s12 ">
-               <h3>Les unités d'enseignements</h3><a href="ENSINAU1.html" class="black-text" style="font-size: large;">ENSINAU1</a>,
-               <a href="ENSINAU2.html" class="black-text" style="font-size: large;">ENSINAU2</a>,
-               <a href="ENSINAU3.html" class="black-text" style="font-size: large;">ENSINAU3</a>,
-               <a href="ENSINAU12.html" class="black-text" style="font-size: large;">ENSINAU12</a>,
-               <a href="ENSINAU4.html" class="black-text" style="font-size: large;">ENSINAU4</a>,
-               <a href="ENSINAU6.html" class="black-text" style="font-size: large;">ENSINAU6</a>,
-               <a href="ENSINAU7.html" class="black-text" style="font-size: large;">ENSINAU7</a>,
-               <a href="ENSINAU8.html" class="black-text" style="font-size: large;">ENSINAU8</a>,
-               <a href="ENSINAU9.html" class="black-text" style="font-size: large;">ENSINAU9</a>,
-               <a href="ENSINAU10.html" class="black-text" style="font-size: large;">ENSINAU10</a>,
-               <a href="ENSINAU13.html" class="black-text" style="font-size: large;">ENSINAU13</a>,
-               <a href="ENSINBU1.html" class="black-text" style="font-size: large;">ENSINBU1</a>,
-               <a href="ENSINBU2.html" class="black-text" style="font-size: large;">ENSINBU2</a>,
-               <a href="ENSINBU4.html" class="black-text" style="font-size: large;">ENSINBU4</a>,
-               <a href="ENSINBU5.html" class="black-text" style="font-size: large;">ENSINBU5</a>,
-               <a href="ENSINBU15.html" class="black-text" style="font-size: large;">ENSINBU15</a>,
-               <a href="ENSINBU6.html" class="black-text" style="font-size: large;">ENSINBU6</a>,
-               <a href="ENSINBU7.html" class="black-text" style="font-size: large;">ENSINBU7</a>,
-               <a href="ENSINBU8.html" class="black-text" style="font-size: large;">ENSINBU8</a>,
-               <a href="ENSINBU9.html" class="black-text" style="font-size: large;">ENSINBU9</a>,
-               <a href="ENSINBU10.html" class="black-text" style="font-size: large;">ENSINBU10</a>,
-               <a href="ENSINBU11.html" class="black-text" style="font-size: large;">ENSINBU11</a>,
-               <a href="ENSINBU12.html" class="black-text" style="font-size: large;">ENSINBU12</a>,
-               <a href="ENSINBU13.html" class="black-text" style="font-size: large;">ENSINBU13</a>,
-               <a href="ENSINBU14.html" class="black-text" style="font-size: large;">ENSINBU14</a>,
-               <a href="ENSINCU41.html" class="black-text" style="font-size: large;">ENSINCU41</a>,
-               <a href="ENSINCU42.html" class="black-text" style="font-size: large;">ENSINCU42</a>,
-               <a href="ENSINCU43.html" class="black-text" style="font-size: large;">ENSINCU43</a>,
-               <a href="ENSINCU46.html" class="black-text" style="font-size: large;">ENSINCU46</a>,
-               <a href="ENSINCU27.html" class="black-text" style="font-size: large;">ENSINCU27</a>,
-               <a href="ENSINCU28.html" class="black-text" style="font-size: large;">ENSINCU28</a>,
-               <a href="ENSINCU29.html" class="black-text" style="font-size: large;">ENSINCU29</a>,
-               <a href="ENSINCU30.html" class="black-text" style="font-size: large;">ENSINCU30</a>,
-               <a href="ENSINCU31.html" class="black-text" style="font-size: large;">ENSINCU31</a>,
-               <a href="ENSINCU67.html" class="black-text" style="font-size: large;">ENSINCU67</a>,
-               <a href="ENSINCU32.html" class="black-text" style="font-size: large;">ENSINCU32</a>,
-               <a href="ENSINCU33.html" class="black-text" style="font-size: large;">ENSINCU33</a>,
-               <a href="ENSINCU34.html" class="black-text" style="font-size: large;">ENSINCU34</a>,
-               <a href="ENSINCU35.html" class="black-text" style="font-size: large;">ENSINCU35</a>,
-               <a href="ENSINCU36.html" class="black-text" style="font-size: large;">ENSINCU36</a>,
-               <a href="ENSINCU37.html" class="black-text" style="font-size: large;">ENSINCU37</a>,
-               <a href="ENSINCU38.html" class="black-text" style="font-size: large;">ENSINCU38</a>,
-               <a href="ENSINCU39.html" class="black-text" style="font-size: large;">ENSINCU39</a>,
-               <a href="ENSINCU40.html" class="black-text" style="font-size: large;">ENSINCU40</a>,
-               <a href="ENSINDU3.html" class="black-text" style="font-size: large;">ENSINDU3</a>,
-               <a href="ENSINDU4.html" class="black-text" style="font-size: large;">ENSINDU4</a>,
-               
+               <h3>Les unités d'enseignements</h3>
+               <ul>
+                  <li><a href="ENSINAU1.html" class="black-text" style="font-size: large;">ENSINAU1 - Génie Logiciel</a></li>
+                  <li><a href="ENSINAU2.html" class="black-text" style="font-size: large;">ENSINAU2 - Complexité</a></li>
+                  <li><a href="ENSINAU3.html" class="black-text" style="font-size: large;">ENSINAU3 - Réseaux</a></li>
+                  <li><a href="ENSINAU12.html" class="black-text" style="font-size: large;">ENSINAU12 - BDR : approfondissement </a></li>
+                  <li><a href="ENSINAU4.html" class="black-text" style="font-size: large;">ENSINAU4 - Programmation fonctionnelle</a></li>
+                  <li><a href="ENSINAU6.html" class="black-text" style="font-size: large;">ENSINAU6 - Programmation logique</a></li>
+                  <li><a href="ENSINAU7.html" class="black-text" style="font-size: large;">ENSINAU7 - Outils de l'internet</a></li>
+                  <li><a href="ENSINAU8.html" class="black-text" style="font-size: large;">ENSINAU8 - Système embarqué</a></li>
+                  <li><a href="ENSINAU9.html" class="black-text" style="font-size: large;">ENSINAU9 - Fondamentaux pour l'ingénierie des langues</a></li>
+                  <li><a href="ENSINAU10.html" class="black-text" style="font-size: large;">ENSINAU10 - Modèles à évènements discrets</a></li>
+                  <li><a href="ENSINAU13.html" class="black-text" style="font-size: large;">ENSINAU13 - Pratique de la cryptographie</a></li>
+                  <li><a href="ENSINBU1.html" class="black-text" style="font-size: large;">ENSINBU1 - Anglais</a></li>
+                  <li><a href="ENSINBU2.html" class="black-text" style="font-size: large;">ENSINBU2 - Communication</a></li>
+                  <li><a href="ENSINBU4.html" class="black-text" style="font-size: large;">ENSINBU4 - XML</a></li>
+                  <li><a href="ENSINBU5.html" class="black-text" style="font-size: large;">ENSINBU5 - Algorithmique et recherche opérationnelle</a></li>
+                  <li><a href="ENSINBU15.html" class="black-text" style="font-size: large;">ENSINBU15 - Programmation parallèle</a></li>
+                  <li><a href="ENSINBU6.html" class="black-text" style="font-size: large;">ENSINBU6 - Programmation parallèle</a></li>
+                  <li><a href="ENSINBU7.html" class="black-text" style="font-size: large;">ENSINBU7 - Stage de deux mois</a></li>
+                  <li><a href="ENSINBU8.html" class="black-text" style="font-size: large;">ENSINBU8 - Sémantique</a></li>
+                  <li><a href="ENSINBU9.html" class="black-text" style="font-size: large;">ENSINBU9 - Algorithmique distribuée</a></li>
+                  <li><a href="ENSINBU10.html" class="black-text" style="font-size: large;">ENSINBU10 - Intégration des systèmes d'information</a></li>
+                  <li><a href="ENSINBU11.html" class="black-text" style="font-size: large;">ENSINBU11 - Initiation à la fouille de données et à l'optimisation des SGBD</a></li>
+                  <li><a href="ENSINBU12.html" class="black-text" style="font-size: large;">ENSINBU12 - Intelligence artificielle</a></li>
+                  <li><a href="ENSINBU13.html" class="black-text" style="font-size: large;">ENSINBU13 - Algorithme à performance garantie</a></li>
+                  <li><a href="ENSINBU14.html" class="black-text" style="font-size: large;">ENSINBU14 - Introduction à l'apprentissage automatique</a></li>
+                  <li><a href="ENSINCU41.html" class="black-text" style="font-size: large;">ENSINCU41 - Qualité logicielle : outils et méthodes</a></li>
+                  <li><a href="ENSINCU42.html" class="black-text" style="font-size: large;">ENSINCU42 - Spécification logicielle</a></li>
+                  <li><a href="ENSINCU43.html" class="black-text" style="font-size: large;">ENSINCU43 - Conception logicielle</a></li>
+                  <li><a href="ENSINCU46.html" class="black-text" style="font-size: large;">ENSINCU46 - XML avancé</a></li>
+                  <li><a href="ENSINCU27.html" class="black-text" style="font-size: large;">ENSINCU27 - Anglais 2</a></li>
+                  <li><a href="ENSINCU28.html" class="black-text" style="font-size: large;">ENSINCU28 - Communication 2</a></li>
+                  <li><a href="ENSINCU29.html" class="black-text" style="font-size: large;">ENSINCU29 - Fiabilité logicielle 1</a></li>
+                  <li><a href="ENSINCU30.html" class="black-text" style="font-size: large;">ENSINCU30 - Plateforme JEE</a></li>
+                  <li><a href="ENSINCU31.html" class="black-text" style="font-size: large;">ENSINCU31 - Systèmes hétérogènes</a></li>
+                  <li><a href="ENSINCU67.html" class="black-text" style="font-size: large;">ENSINCU67 - Projet d'entreprise</a></li>
+                  <li><a href="ENSINCU32.html" class="black-text" style="font-size: large;">ENSINCU32 - Sécurité internet et réseau</a></li>
+                  <li><a href="ENSINCU33.html" class="black-text" style="font-size: large;">ENSINCU33 - Fiabilité logicielle 2</a></li>
+                  <li><a href="ENSINCU34.html" class="black-text" style="font-size: large;">ENSINCU34 - Qualité</a></li>
+                  <li><a href="ENSINCU35.html" class="black-text" style="font-size: large;">ENSINCU35 - Sécurité des systèmes embarqués</a></li>
+                  <li><a href="ENSINCU36.html" class="black-text" style="font-size: large;">ENSINCU36 - Administration système réseau</a></li>
+                  <li><a href="ENSINCU37.html" class="black-text" style="font-size: large;">ENSINCU37 - Méthodes de développement</a></li>
+                  <li><a href="ENSINCU38.html" class="black-text" style="font-size: large;">ENSINCU38 - Architecture logicielle JEE</a></li>
+                  <li><a href="ENSINCU39.html" class="black-text" style="font-size: large;">ENSINCU39 - Intégration des données</a></li>
+                  <li><a href="ENSINCU40.html" class="black-text" style="font-size: large;">ENSINCU40 - Adminsitration et alimentation de BD</a></li>
+                  <li><a href="ENSINDU3.html" class="black-text" style="font-size: large;">ENSINDU3 - Projet industriel de mise en application</a></li>
+                  <li><a href="ENSINDU4.html" class="black-text" style="font-size: large;">ENSINDU4 - Stage en entreprise</a></li>
+               </ul>
             </div>
          </div>
       </div>
@@ -99,9 +93,9 @@
 <footer class="page-footer blue darken-1">
    <div class="container">
       <div class="row">
-         <div class="col l6 s12">
+         <div class="col l9 s12">
             <h5 class="white-text">Aix-Marseille Université</h5>
-            <p class="grey-text text-lighten-4">Lorem Ipsum...</p>
+            <p class="grey-text text-lighten-4">Un projet de l'UE XML en collaboration avec EL YOUSFI Ayoub</p>
          </div>
          <div class="col l3 s12">
             <h5 class="white-text">Pages voisines</h5>
@@ -114,8 +108,8 @@
    </div>
    <div class="footer-copyright">
       <div class="container">
-         Made by
+         Design par
          <a class="brown-text text-lighten-3" href="https://github.com/AlexAndriamahaleo">BananiaStyle
             </a></div>
    </div>
-</footer><script type="text/javascript" src="../tools/jquery-3.2.1.min.js"></script><script type="text/javascript" src="../tools/materialize.min.js"></script>
+</footer><script type="text/javascript" src="../tools/jquery-3.2.1.min.js"></script><script type="text/javascript" src="../tools/materialize.min.js"></script><script type="text/javascript" src="../tools/init.js"></script>
