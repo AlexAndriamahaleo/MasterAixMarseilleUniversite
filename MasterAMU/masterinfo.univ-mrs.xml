@@ -175,21 +175,6 @@
                 <ref-intervenant ref="godard"/>
             </list-intervenants>
         </ue>
-        <ue id="ENSINAU12" role="obligatoire">
-            <nom>BDR : approfondissement </nom>
-            <credits>3</credits>
-            <description>
-                nous sommes désolé, mais nous n'avons pas encore de résumé.
-            </description>
-            <plan>10h CM, 10h TD, 10h TP</plan>
-            <list-lieu>
-                <lieu-ens>&stj;</lieu-ens>
-                <lieu-ens>&lum;</lieu-ens>
-            </list-lieu>
-            <list-intervenants>
-                <ref-intervenant ref="novelli"/>
-            </list-intervenants>
-        </ue>
         <ue id="ENSINAU4" role="obligatoire">
             <nom>Programmation fonctionnelle</nom>
             <credits>3</credits>
@@ -303,6 +288,21 @@
                 <ref-intervenant ref="labourel"/>
             </list-intervenants>
         </ue>
+        <ue id="ENSINAU12" role="obligatoire">
+            <nom>BDR : approfondissement </nom>
+            <credits>3</credits>
+            <description>
+                nous sommes désolé, mais nous n'avons pas encore de résumé.
+            </description>
+            <plan>10h CM, 10h TD, 10h TP</plan>
+            <list-lieu>
+                <lieu-ens>&stj;</lieu-ens>
+                <lieu-ens>&lum;</lieu-ens>
+            </list-lieu>
+            <list-intervenants>
+                <ref-intervenant ref="novelli"/>
+            </list-intervenants>
+        </ue>
         <ue id="ENSINAU13" role="option">
             <nom>Pratique de la cryptographie</nom>
             <credits>3</credits>
@@ -397,21 +397,6 @@
             </list-lieu>
             <list-intervenants>
                 <ref-intervenant ref="chepoi"/>
-            </list-intervenants>
-        </ue>
-        <ue id="ENSINBU15" role="obligatoire">
-            <nom>Programmation parallèle</nom>
-            <credits>3</credits>
-            <description>
-                nous sommes désolé, mais nous n'avons pas encore de résumé.
-            </description>
-            <plan>10h CM, 10h TD, 10h TP</plan>
-            <list-lieu>
-                <lieu-ens>&stj;</lieu-ens>
-                <lieu-ens>&lum;</lieu-ens>
-            </list-lieu>
-            <list-intervenants>
-                <ref-intervenant ref="morin"/>
             </list-intervenants>
         </ue>
         <ue id="ENSINBU6" role="obligatoire">
@@ -561,7 +546,22 @@
                 <ref-intervenant ref="morin"/>
             </list-intervenants>
         </ue>
-        <ue id="ENSINBU14" role="option">
+        <ue id="ENSINBU15" role="obligatoire">
+            <nom>Programmation parallèle</nom>
+            <credits>3</credits>
+            <description>
+                nous sommes désolé, mais nous n'avons pas encore de résumé.
+            </description>
+            <plan>10h CM, 10h TD, 10h TP</plan>
+            <list-lieu>
+                <lieu-ens>&stj;</lieu-ens>
+                <lieu-ens>&lum;</lieu-ens>
+            </list-lieu>
+            <list-intervenants>
+                <ref-intervenant ref="morin"/>
+            </list-intervenants>
+        </ue>
+        <ue id="ENSINBU16" role="option">
             <nom>Introduction à l'apprentissage automatique</nom>
             <credits>3</credits>
             <description>
@@ -581,37 +581,189 @@
                 <ref-intervenant ref="denis"/>
             </list-intervenants>
         </ue>
-        <ue id="ENSINCU41" role="obligatoire">
-            <nom>Qualité logicielle : outils et méthodes</nom>
+        <ue id="ENSINCU1" role="obligatoire">
+            <nom>Algorithmique et complexité</nom>
             <credits>6</credits>
-            <description>Qualité logicielle, test et validation logiciel, ateliers de génie logiciel.</description>
-            <list-lieu>
-                <lieu-ens>&stj;</lieu-ens>
-            </list-lieu>
+            <description>
+                Principales techniques de conception et analyse d'algorithmes (efficaces) pour les problèmes polynomiaux et les problèmes NP-complets. Complexité de l'approximation, du comptage. Complexité paramétrée. Classes probabilistes.
+            </description>
         </ue>
-        <ue id="ENSINCU42" role="obligatoire">
-            <nom>Spécification logicielle</nom>
-            <credits>3</credits>
-            <description>Modèles formels, modèle SADT, logiciels temps réel, méthode SA-RT.</description>
-            <list-lieu>
-                <lieu-ens>&stj;</lieu-ens>
-            </list-lieu>
+        <ue id="ENSINCU2" role="obligatoire">
+            <nom>Logique, automates et aspects formels de la théorie des langages</nom>
+            <credits>6</credits>
+            <description>
+                Logique du premier ordre. Logiques modales et temporelles. Logiques monadiques. Décidabilité de logiques.
+
+                Automates de mots finis et infinis. Automates d'arbres et langages réguliers d'arbres. Liens avec la logique.
+            </description>
         </ue>
-        <ue id="ENSINCU43" role="obligatoire">
-            <nom>Conception logicielle</nom>
+        <ue id="ENSINCU3" role="obligatoire">
+            <nom>Statistique inférentielle</nom>
             <credits>3</credits>
-            <description>Conception objet, patrons de conception, conception IHM.</description>
-            <list-lieu>
-                <lieu-ens>&stj;</lieu-ens>
-            </list-lieu>
+            <description>
+                Théorie des probabilités et statistique inférentielle. Ce cours permet d'acquérir des bases solides pour l'apprentissage automatique ou le traitement automatique de la langue naturelle.
+            </description>
         </ue>
-        <ue id="ENSINCU46" role="obligatoire">
-            <nom>XML avancé</nom>
+        <ue id="ENSINCU4" role="option">
+            <nom>Nouveaux défis en apprentissage</nom>
             <credits>3</credits>
-            <description>Modélisation et navigation, XSchema et XPath avancés, Requêtage des bases documentaires, DOM et SAX avancés.</description>
-            <list-lieu>
-                <lieu-ens>&stj;</lieu-ens>
-            </list-lieu>
+            <description>
+                Étude des méthodes d'apprentissage qui traitent, de façon tant théorique qu'appliquée, séparément ou simultanément, un ou plusieurs problèmes classiques.
+            </description>
+        </ue>
+        <ue id="ENSINCU5" role="option">
+            <nom>Théorie de l'apprentissage</nom>
+            <credits>3</credits>
+            <description>
+                Avancées récentes en théorie de l'apprentissage statistique : complexité de Rademacher, bornes PAC-Bayes, stabilité algorithmique, schémas de compression.
+            </description>
+        </ue>
+        <ue id="ENSINCU6" role="option">
+            <nom>Inférence grammaticale</nom>
+            <credits>3</credits>
+            <description>
+                Large panorama des différents algorithmes et résultats obtenus récemment pour l'apprentissage de représentations grammaticales de langages.
+            </description>
+        </ue>
+        <ue id="ENSINCU7" role="option">
+            <nom>Apprentissage numérique</nom>
+            <credits>3</credits>
+            <description>
+                Étude de quelques unes des méthodes les plus performantes en apprentissage numérique : les réseaux de neurones, les modèles de Markov cachés et les machines à vecteurs de support.
+            </description>
+        </ue>
+        <ue id="ENSINCU8" role="option">
+            <nom>Fouille de bases de données</nom>
+            <credits>3</credits>
+            <description>
+                Bases mathématiques sur lesquelles reposent les méthodes de fouille de bases de données qui sont également présentées et visent soit l'aide à la décision soit l'administration de bases de données.
+            </description>
+        </ue>
+        <ue id="ENSINCU9" role="option">
+            <nom>Entrepôts de données</nom>
+            <credits>3</credits>
+            <description>
+                Étude de la problématique posée par les entrepôts de données (ou data warehouse ou OLAP), depuis leur conception jusqu'aux algorithmes de calcul de cubes de données.
+            </description>
+        </ue>
+        <ue id="ENSINCU10" role="option">
+            <nom>Fouille de données avancée</nom>
+            <credits>3</credits>
+            <description>
+                Approfondissement des techniques de fouille de données en étudiant les méthodes de réduction des règles d'association ainsi que leur application à la classification supervisée et en mettant en œuvre des algorithmes par niveaux.
+            </description>
+        </ue>
+        <ue id="ENSINCU11" role="option">
+            <nom>Géométrie discrète</nom>
+            <credits>3</credits>
+            <description>
+                Introduction à la géométrie discrète dans $Z^n$, en trois volets : des rappels sur la géométrie des nombres, un état de l'art en géométrie discrète, enfin une étude des transformations de distances et leurs applications.
+            </description>
+        </ue>
+        <ue id="ENSINCU12" role="option">
+            <nom>Algorithmique des graphes et réseaux</nom>
+            <credits>3</credits>
+            <description>
+                Algorithmes exacts. Algorithmes d'approximation. Structures de données distribuées.
+            </description>
+        </ue>
+        <ue id="ENSINCU13" role="option">
+            <nom> Espaces métriques : structure et algorithmiques</nom>
+            <credits>3</credits>
+            <description>
+                Introduction aux principales classes et constructions des espaces métriques et des graphes métriques,. Plongements isométriques ou à faible distorsion des espaces métriques dans des espaces géométriques, leur applications en informatique et mathématiques.
+            </description>
+        </ue>
+        <ue id="ENSINCU14" role="option">
+            <nom>Optimisation combinatoire et programmation en nombres entiers</nom>
+            <credits>3</credits>
+            <description>
+                Principaux concepts, algorithmes, méthodes et outils qui permettent de résoudre les problèmes d'optimisation combinatoire, en particulier ceux qui se formulent comme des programmes linéaires en nombres entiers.
+            </description>
+        </ue>
+        <ue id="ENSINCU15" role="option">
+            <nom>Logiques et jeux</nom>
+            <credits>3</credits>
+            <description>
+                Mu-calcul , syntaxe-sémantique. Model-checking par jeux de parité, tableaux-decidabilité. Puissance expressive
+            </description>
+        </ue>
+        <ue id="ENSINCU16" role="option">
+            <nom>Algorithmique distribuée 2</nom>
+            <credits>3</credits>
+            <description>
+                Algorithmes de diffusion, diffusion avec retour. Algorithmes d'élection, détection de la terminaison. Tolérance aux pannes
+            </description>
+        </ue>
+        <ue id="ENSINCU17" role="option">
+            <nom>Vérification et sécurité</nom>
+            <credits>3</credits>
+            <description>
+                Model Checking. Algorithmes de vérification. Modèles de sécurité. Vérification de programmes par analyse statique.
+            </description>
+        </ue>
+        <ue id="ENSINCU18" role="option">
+            <nom>Modèles du parallélisme</nom>
+            <credits>3</credits>
+            <description>
+                Modèles classiques de systèmes. Résultats principaux du domaine concernant les problèmes d'accessibilité, de model-checking, de contrôle ou de synthèse associés.
+            </description>
+        </ue>
+        <ue id="ENSINCU19" role="option">
+            <nom>Modèles et connaissances linguistiques pour le TAL</nom>
+            <credits>3</credits>
+            <description>
+                Traitement automatique des langues dans ses aspects applications. Différentes types de connaissances et modèles symboliques sur la langue. Plusieurs ressources linguistiques pour le français sont examinées.
+            </description>
+        </ue>
+        <ue id="ENSINCU20" role="option">
+            <nom>Syntaxe et sémantique : modèles et outils</nom>
+            <credits>3</credits>
+            <description>
+                Principes et nature des représentations syntaxiques et sémantiques associables à une phrase. Différents formalismes seront étudiés pour exprimer ces représentations.
+            </description>
+        </ue>
+        <ue id="ENSINCU21" role="option">
+            <nom>Modèles numériques pour le TAL</nom>
+            <credits>3</credits>
+            <description>
+                Présentation des modèles numériques utilisés pour différentes tâches du Traitement Automatique des Langue. Algorithmes qui permettent d'en estimer les paramètres à partir de données et les algorithmes de décodage.
+            </description>
+        </ue>
+        <ue id="ENSINCU22" role="option">
+            <nom>Applications du Traitement Automatique de la Langue (TAL)</nom>
+            <credits>3</credits>
+            <description>
+                État de l'art dans différentes applications du Traitement Automatique des Langues, tel que la traduction automatique, le résumé automatique ainsi que sur les traitements de « bas niveau » nécessaires dans la majorité des applications.
+            </description>
+        </ue>
+        <ue id="ENSINCU23" role="option">
+            <nom>Algorithmique des chaînes de caractères</nom>
+            <credits>3</credits>
+            <description>
+                Différentes structures et algorithmes relatifs aux traitements des chaînes de caractères.
+            </description>
+        </ue>
+        <ue id="ENSINCU24" role="option">
+            <nom>Classification et phylogénie</nom>
+            <credits>3</credits>
+            <description>
+                Méthodes de classification et de construction d'arbres à partir de distances.
+            </description>
+        </ue>
+        <ue id="ENSINCU25" role="option">
+            <nom>Modèles markoviens</nom>
+            <credits>3</credits>
+            <description>
+                Présentation des chaînes de Markov, leurs algorithmes et applications.
+            </description>
+        </ue>
+        <ue id="ENSINCU26" role="option">
+            <nom>Logiques non-standards</nom>
+            <credits>3</credits>
+            <description>
+                Logiques multi-modales des connaissances et de l'interaction. Logiques non-monotones. Logiques de description. Tableaux sémantiques pour logiques de mondes possibles. Bases de connaissances dynamiques.
+            </description>
         </ue>
         <ue id="ENSINCU27" role="obligatoire">
             <nom>Anglais 2</nom>
@@ -721,17 +873,6 @@
                 serveurs (Microsoft, Linux).
             </description>
             <plan>12h CM, 10h TD, 8h TP</plan>
-            <list-lieu>
-                <lieu-ens>&lum;</lieu-ens>
-            </list-lieu>
-        </ue>
-        <ue id="ENSINCU67" role="bonus">
-            <nom>Projet d'entreprise</nom>
-            <credits>3</credits>
-            <description>
-                L'objet de cet enseignement est de présenter un projet de création et de développementd'entreprise. Le but est de donner une vision horizontale des différents aspects à examiner pour se lancerdans une création d'entreprise, sans la complétude verticale donnée par exemple par un cours de type« école de commerce » sur l'aspect marché. Une vision de Business Plan pourra ainsi être acquise à la finde cet enseignement.
-            </description>
-            <plan>10h CM, 20h TD</plan>
             <list-lieu>
                 <lieu-ens>&lum;</lieu-ens>
             </list-lieu>
@@ -957,6 +1098,267 @@
                 <lieu-ens>&lum;</lieu-ens>
             </list-lieu>
         </ue>
+        <ue id="ENSINCU41" role="obligatoire">
+            <nom>Qualité logicielle : outils et méthodes</nom>
+            <credits>6</credits>
+            <description>Qualité logicielle, test et validation logiciel, ateliers de génie logiciel.</description>
+            <list-lieu>
+                <lieu-ens>&stj;</lieu-ens>
+            </list-lieu>
+        </ue>
+        <ue id="ENSINCU42" role="obligatoire">
+            <nom>Spécification logicielle</nom>
+            <credits>3</credits>
+            <description>Modèles formels, modèle SADT, logiciels temps réel, méthode SA-RT.</description>
+            <list-lieu>
+                <lieu-ens>&stj;</lieu-ens>
+            </list-lieu>
+        </ue>
+        <ue id="ENSINCU43" role="obligatoire">
+            <nom>Conception logicielle</nom>
+            <credits>3</credits>
+            <description>Conception objet, patrons de conception, conception IHM.</description>
+            <list-lieu>
+                <lieu-ens>&stj;</lieu-ens>
+            </list-lieu>
+        </ue>
+        <ue id="ENSINCU44" role="obligatoire">
+            <nom>Architecture logicielle JEE</nom>
+            <credits>3</credits>
+            <description>
+                Composants logiciels , architectures N-tier, middleware, Entreprise Java Beans (EJB).
+            </description>
+        </ue>
+        <ue id="ENSINCU45" role="obligatoire">
+            <nom>Technologies du Web et Web 2.0</nom>
+            <credits>3</credits>
+            <description>
+                Protocoles de communication, standards Web, Langages à balises, programmation Web, Ajax, XUL, standardisation et convergence d'interfaces.
+            </description>
+        </ue>
+        <ue id="ENSINCU46" role="obligatoire">
+            <nom>XML avancé</nom>
+            <credits>3</credits>
+            <description>Modélisation et navigation, XSchema et XPath avancés, Requêtage des bases documentaires, DOM et SAX avancés.</description>
+            <list-lieu>
+                <lieu-ens>&stj;</lieu-ens>
+            </list-lieu>
+        </ue>
+        <ue id="ENSINCU47" role="obligatoire">
+            <nom>Gestion de projet</nom>
+            <credits>3</credits>
+            <description>
+                Définition et acteurs d'un projet, organisation d'un projet, techniques de planification, estimation prévisionnelle d'un projet, pilotage et contrôle d'un projet, recette finale.
+            </description>
+        </ue>
+        <ue id="ENSINCU48" role="obligatoire">
+            <nom>Optimisation linéaire</nom>
+            <credits>3</credits>
+            <description>
+                ¤ Rappels de programmation linéaire.
+
+                ¤ Implantation efficace de la méthode simplex.
+
+                ¤ Dualité et analyse de sensibilité.
+
+                ¤ Notion et algorithmes de flots, applications.
+            </description>
+        </ue>
+        <ue id="ENSINCU49" role="obligatoire">
+            <nom>Fouille de données (FD)</nom>
+            <credits>3</credits>
+            <description>
+                ¤ Bases mathématiques pour la fouille de données, l'aide à la décision et à la rétro-conception de Bases de Données
+                ¤ Motifs fréquents, Motifs contraints et Règles d'association
+                ¤ Motifs Fermés
+                ¤ Clefs et couvertures pour les Règles
+                ¤ Corrélation et classification
+                ¤ Clustering et Skylines
+
+                Logiciels  : Oracle, R, Tanagra (logiciel libre utilisé à des fins pédagogiques).
+            </description>
+        </ue>
+        <ue id="ENSINCU50" role="obligatoire">
+            <nom>Méthodologie de conception d'applications décisionnelles</nom>
+            <credits>3</credits>
+            <description>
+                ¤ Technique de nettoyage et de vérification des données.
+
+                ¤ Analyse et modélisation de problèmes décisionnels.
+
+                ¤ Définition de l'objectif de l'analyse : indicateurs, mesures et reporting.
+
+                ¤ Études de cas.
+
+                ¤ Logiciels : Penthao Dashboard et Reporting.
+            </description>
+        </ue>
+        <ue id="ENSINCU53" role="obligatoire">
+            <nom>Modélisation en RO</nom>
+            <credits>3</credits>
+            <description>
+                ¤ Modélisation mathématique d'un problème d'optimisation.
+
+                ¤ Utilisation de langage de modélisation et de solveurs.
+
+                ¤ Modélisation en variables binaires.
+
+                ¤ Etudes de cas par secteurs d'activités.
+
+                ¤ Logiciels : Xpress, Mosel, OPL.
+            </description>
+        </ue>
+        <ue id="ENSINCU54" role="obligatoire">
+            <nom>Recherche locale</nom>
+            <credits>3</credits>
+            <description>
+                ¤ Introduction et méthodologie.
+
+                ¤ Stratégie de recherche et mouvements.
+
+                ¤ Algorithmique incrémentale.
+
+                ¤ Modélisation orientée recherche locale.
+
+                ¤ Un solveur par recherche locale : LocalSolver.
+
+                ¤ Etude de cas.
+            </description>
+        </ue>
+        <ue id="ENSINCU56" role="obligatoire">
+            <nom>Traitement automatique de la parole</nom>
+            <credits>3</credits>
+            <description>
+                L'objectif de ce cours est de présenter d'une part les principaux formalismes, modèles et algorithmes pour le traitement automatique de l'oral et d'autre part les outils logiciels permettant de construire une application incluant de la reconnaissance et/ou de la synthèse vocale. Le but de ce cours est de donner aux étudiants une connaissance du potentiel et des limites de la technologie actuelle dans ce domaine.
+            </description>
+        </ue>
+        <ue id="ENSINCU58" role="obligatoire">
+            <nom>Apprentissage automatique et classification</nom>
+            <credits>6</credits>
+            <description>
+                La classification par apprentissage automatique (supervisé et non supervisé) est introduite dans ses objectifs et ses principes. En s'appuyant sur des méthodes éprouvées (arbres de décision, classifieur naïf de Bayes, SVM, k-means, etc.), les grands principes de l'apprentissage automatique pour la classification sont présentés, et illustrés dans le cas de données multimedia (texte et image). Un accent tout particulier est porté sur l'environnement méthodologique de l'apprentissage automatique (estimation de paramètres, évaluation des classifieurs, données manquantes ou bruitées, etc.)
+            </description>
+        </ue>
+        <ue id="ENSINCU59" role="obligatoire">
+            <nom>Recherche et indexation des données multimédia</nom>
+            <credits>6</credits>
+            <description>
+                Ce cours présente une introduction au domaine de la Recherche d’Information Multimédia. La première partie du cours introduit les principes généraux de la RI, appliqués aux documents textuels : indexation ; interrogation ; évaluation. Les modèles classiques : booléen, vectoriel et probabiliste sont présentés, ainsi que les notions d’extension de requête et de bouclage de pertinence. Ce cours s'intéresse aussi aux spécificités des différents formats image et vidéo et présente des solutions pratique pour la mise en oeuvre de serveurs de streaming vidéo.
+            </description>
+        </ue>
+        <ue id="ENSINCU60" role="obligatoire">
+            <nom>Architectures réparties - JEE</nom>
+            <credits>6</credits>
+            <description>
+                Cette UE contient les concepts et outils de base pour le développement de systèmes et d'applications distribués sur le Web. Les architectures client serveur seront revisitées, et un focus particulier sera fait sur les servlets, JSP, EJB, J2EE etc.
+            </description>
+        </ue>
+        <ue id="ENSINCU64" role="obligatoire">
+            <nom>Développement d'applications mobiles</nom>
+            <credits>3</credits>
+            <description>
+                Ce cours est dédié au développement d'applications sur smartphones et tablettes dans un environnement Android. L’objectif visé est le développement d’une application complète et professionnelle à l’issue de ce cours.
+
+                Les éléments suivants seront étudiés :
+
+                ¤ Architecture et OS Android,
+                ¤ la conception d’applications (Context, BroadcastReceiver, ContentProviders, …,
+                ¤ l’interface graphique (Views, Layouts, MVC, …),
+                ¤ le système de ressources et le stockage de données,
+                ¤ les librairies,
+                ¤ les applications connectées (Client http Android, HttpURLConnection , Google Cloud Messaging,…).
+            </description>
+        </ue>
+        <ue id="ENSINCU65" role="obligatoire">
+            <nom>Gestion de projet</nom>
+            <credits>3</credits>
+            <description>
+                Cette UE vise à inculquer un mode de fonctionnement projet. Les aspects techniques (délais, jalons, indicateurs, etc.) et humains (communication, gestion ds conflits, etc) seront abordés.
+            </description>
+        </ue>
+        <ue id="ENSINCU66" role="obligatoire">
+            <nom>Nouvelles applications du Traitement Automatique de la Langue (TAL)</nom>
+            <credits>3</credits>
+            <description>
+                État de l'art dans différentes applications du Traitement Automatique des
+
+                Langues, tel que la traduction automatique, le résumé automatique ainsi que surles traitements de « bas niveau » nécessaires dans la majorité des applications.
+            </description>
+        </ue>
+        <ue id="ENSINCU67" role="bonus">
+            <nom>Projet d'entreprise</nom>
+            <credits>3</credits>
+            <description>
+                L'objet de cet enseignement est de présenter un projet de création et de développementd'entreprise. Le but est de donner une vision horizontale des différents aspects à examiner pour se lancerdans une création d'entreprise, sans la complétude verticale donnée par exemple par un cours de type« école de commerce » sur l'aspect marché. Une vision de Business Plan pourra ainsi être acquise à la finde cet enseignement.
+            </description>
+            <plan>10h CM, 20h TD</plan>
+            <list-lieu>
+                <lieu-ens>&lum;</lieu-ens>
+            </list-lieu>
+        </ue>
+        <ue id="ENSINCU68" role="obligatoire">
+            <nom>Cloud computing</nom>
+            <credits>3</credits>
+            <description>
+                L’objectif de ce cours et d’apprendre à créer et déployer des applications Cloud. Le cours couvre les aspects suivants :
+
+                ¤ Définition et types de cloud : cloud privé, public, hybride
+                ¤ Concepts et services cloud : SaaS, PaaS, IaaS, ...
+                ¤ Risques et opportunités du cloud : gestion de la sécurité (données sensibles), accès instantanés à des ressources de calcul et de stockage (élasticité),
+                ¤ Création et déploiement d’applications : Google Cloud, Amazon, Azure, ...
+            </description>
+        </ue>
+        <ue id="ENSINCU69" role="obligatoire">
+            <nom>Recherche d'information</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSINCU72" role="obligatoire">
+            <nom>Entrepôt de données et Big Data</nom>
+            <credits>3</credits>
+            <description>
+                ¤ Définition, caractéristique, particularité, architecture.
+                ¤ Intégration de données.
+                ¤ Exploitation d'un entrepôt en vue d'analyses.
+                ¤ Requêtes OLAP.
+                ¤ Cubes de données, modèles conceptuels et logiques.
+                ¤ Méthode algorithmique de type Rolap cubing.
+                ¤ Big Data : concept et usage
+
+                Logiciel  : ORACLE OLAP, Talend
+            </description>
+        </ue>
+        <ue id="ENSINCU73" role="obligatoire">
+            <nom>Analyse et reporting</nom>
+            <credits>3</credits>
+            <description>
+                ¤ Problématique d'analyse de données et de reporting
+                ¤ Choix des données pour une l'analysele et le reporting
+                ¤ Choix des indicateurs et mesure
+                ¤ Choix de la représentation graphique des données agrégées
+                ¤ Restitution statique et dynamique
+
+                Logiciel  : QlikView
+            </description>
+        </ue>
+        <ue id="ENSINCU74" role="obligatoire">
+            <nom>Introduction au Big Data</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSINCU75" role="obligatoire">
+            <nom>Business process</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSINDU1" role="obligatoire">
+            <nom>Communication scientifique</nom>
+            <credits>3</credits>
+            <description>
+                Lecture d'un article en anglais et exposé oral.
+            </description>
+        </ue>
+        <ue id="ENSINDU2" role="obligatoire">
+            <nom>Initiation à la recherche</nom>
+            <credits>27</credits>
+        </ue>
         <ue id="ENSINDU3" role="obligatoire">
             <nom>Projet industriel de mise en application</nom>
             <credits>6</credits>
@@ -970,6 +1372,194 @@
             <description>Recherche d'un stage. Validation du sujet de stage. Suivi du bon déroulement du stage.
                 Aide à la rédaction du mémoire de stage. Soutenance et évaluation du stage.
             </description>
+        </ue>
+        <ue id="ENSISCU1" role="option">
+            <nom>AU4 : Classification, apprentissage et décision</nom>
+            <credits>6</credits>
+            <description>
+                Méthodes non supervisées et supervisées, classification Bayésienne, évaluation et validation, logique floue
+            </description>
+        </ue>
+        <ue id="ENSISCU2" role="option">
+            <nom>IM8 : Segmentation 2</nom>
+            <credits>3</credits>
+            <description>
+                Contours actifs, filtrage non linéaire/diffusion, approches stochastiques (Markov/Bayes)
+            </description>
+        </ue>
+        <ue id="ENSISCU3" role="option">
+            <nom>IM6 : Animation et simulation physique</nom>
+            <credits>3</credits>
+            <plan>15h Cours, 15h TP</plan>
+        </ue>
+        <ue id="ENSISCU4" role="option">
+            <nom>IM10 : Imagerie médicale</nom>
+            <credits>3</credits>
+            <description>
+                Origine et nature des images médicales (les différentes modalités), Analyse des images médicales, Reconstruction et imagerie médicale 3D, Recalage d’images, Applications.
+            </description>
+        </ue>
+        <ue id="ENSISCU5" role="option">
+            <nom>IM11 : Modélisation algorithmique, différentielle et discrète</nom>
+            <credits>3</credits>
+            <description>
+                Enveloppe convexe, triangulation de Delaunay, diagramme de Voronoi, Courbures discrètes, Distances discrètes, Axes médians et squelettes, Topologie élémentaire et nombres de Betti.
+            </description>
+        </ue>
+        <ue id="ENSISCU6" role="option">
+            <nom>IM12 : Analyse de vidéo et reconnaissance de forme</nom>
+            <credits>3</credits>
+            <description>
+                Détection de mouvement dans une séquence vidéo, Suivi d’objets, Reconnaissance de formes , Applications : Vidéo surveillance, Détection et suivi de personnes , Suivi des visages et détection des émotions.
+            </description>
+        </ue>
+        <ue id="ENSISCU7" role="option">
+            <nom>IM13 : Vision industrielle</nom>
+            <credits>3</credits>
+            <description>
+                Introduction sur les capteurs , Vision active, Vision passive , Technique de mosaiquage d’images, Recalage multimodal, Reconstruction 3D, Application : Photogrammétrie, Inspection industrielle.
+            </description>
+        </ue>
+        <ue id="ENSISCU8" role="option">
+            <nom>IM14 : Modèles pour la production d'images : CAO et jeux vidéo</nom>
+            <credits>3</credits>
+            <description>
+                ¤ la Conception Assistée par Ordinateur,
+                ¤ la Visualisation, la Simulation, la Réalité Virtuelle et Augmentée,
+                ¤ les Jeux Vidéos.
+            </description>
+        </ue>
+        <ue id="ENSISCU20" role="obligatoire">
+            <nom>RTC : Concepts fondamentaux de la modélisation</nom>
+            <credits>6</credits>
+            <description>
+                Concepts et formalismes de base pour la modélisation temporelle et spatiale (modèles de comportements, modèles de structures et modèles géométriques) et la modélisation de l'information et de la connaissance (méthodes de représentation de la connaissance, formalismes logiques, expression de problèmes à l'aide de contraintes).
+            </description>
+        </ue>
+        <ue id="ENSISCU21" role="option">
+            <nom>RI1 : Fondements logiques et algorithmiques</nom>
+            <credits>6</credits>
+            <description>
+                Introduction aux notions fondamentales logiques et algorithmiques qui trouvent leurs applications dans plusieurs domaines : systèmes multi-agents, vérification des systèmes, ontologies pour le web sémantique, traitement de connaissance incomplète et révisable, recherche d’information et fouilles des données. Le cours prévoit une partie portant sur la complexité structurelle nécessaire à l’analyse et à l’évaluation des tous formalismes logiques d’un point de vue algorithmique ainsi que sur les algorithmes probabilistes utilisés dans la recherche d’information et fouilles des données.
+            </description>
+        </ue>
+        <ue id="ENSISCU22" role="option">
+            <nom>RI2 : Fondements de programmation et de satisfiabilité</nom>
+            <credits>3</credits>
+            <description>
+                Etude des problèmes de satisfaction de contraintes (CSP) et du problème de la satisfiabilité en logique propositionnelle (SAT). Nous nous intéressons en particulier aux questions portant sur la résolution de ces problèmes (méthodes et fondements théoriques) ainsi qu'aux fragments polynomiaux existant en SAT et CSP.
+            </description>
+        </ue>
+        <ue id="ENSISCU23" role="option">
+            <nom>RI3 : Représentation des connaissances : Approfondissement et applications</nom>
+            <credits>3</credits>
+            <description>
+                Acquérir des notions avancées en représentation de connaissances et raisonnement dans les domaines de : la révision et la fusion des croyances, l’Answer Set Programming et les théories formelles de l’argumentation.
+            </description>
+        </ue>
+        <ue id="ENSISCU24" role="option">
+            <nom>RI4 : Planification, configuration et raisonnement temporel et spatial</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU25" role="option">
+            <nom>RI5 : Agents et ontologies pour les systèmes d'information et le web sémantique</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU26" role="option">
+            <nom>RI6 : Approches avancées de conception de systèmes d'information</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU27" role="option">
+            <nom>RI7 : Extraction et intégration d'information du web</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU28" role="option">
+            <nom>RI8 : Web services</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU29" role="option">
+            <nom>RIS1 : Traitement de données multimodales</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU30" role="option">
+            <nom>RIS2 : Formalismes à événements discrets</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU31" role="option">
+            <nom>RIS3 : Simulation distribuée et modèles hétérogènes</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU32" role="option">
+            <nom>RIS4 : Aide à la décision</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU33" role="option">
+            <nom>R2 : Communication et interaction homme-machine</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU34" role="option">
+            <nom>RE1 : Problématique, démarche, modèles et objects de conception</nom>
+            <credits>6</credits>
+        </ue>
+        <ue id="ENSISCU35" role="option">
+            <nom>RE2 : Modèles et objets de conception</nom>
+            <credits>6</credits>
+        </ue>
+        <ue id="ENSISCU36" role="option">
+            <nom>RE3 : Systèmes intelligents</nom>
+            <credits>6</credits>
+        </ue>
+        <ue id="ENSISCU37" role="option">
+            <nom>RE4 : Conception et architecture</nom>
+            <credits>6</credits>
+        </ue>
+        <ue id="ENSISCU38" role="option">
+            <nom>RO1 : Une UE extérieure de 3 crédits (validation requise)</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU39" role="option">
+            <nom>RO2 : Une UE extérieure de 6 crédits (validation requise)</nom>
+            <credits>6</credits>
+        </ue>
+        <ue id="ENSISCU40" role="option">
+            <nom>RS1 : Commande et diagnostic des systèmes complexes</nom>
+            <credits>6</credits>
+        </ue>
+        <ue id="ENSISCU41" role="option">
+            <nom>RS2 : Systèmes à structure variable et planification</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU42" role="option">
+            <nom>RS3 : Génie électrique et mécatronique</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU43" role="option">
+            <nom>RS4 : Pronostic des systèmes</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU44" role="option">
+            <nom>RS5 : Procédés à énergie renouvelable</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU45" role="option">
+            <nom>RS6 : Réseaux de neurones</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU46" role="option">
+            <nom>RS7 : Conduite et gestion de la production</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISCU55" role="option">
+            <nom>IM15 : Modèles pour la production d'images, traitement et visualisation de données géométriques à haute-performance</nom>
+            <credits>3</credits>
+        </ue>
+        <ue id="ENSISDU3" role="obligatoire">
+            <nom>R bib : Étude bibliographique</nom>
+            <credits>6</credits>
+        </ue>
+        <ue id="ENSISDU4" role="obligatoire">
+            <nom>Stage de recherche</nom>
+            <credits>24</credits>
         </ue>
     </unites>
     <parcours code="M1" spec="Tronc commun">
@@ -1011,7 +1601,7 @@
                 <ref-ue ref="ENSINBU11"/>
                 <ref-ue ref="ENSINBU12"/>
                 <ref-ue ref="ENSINBU13"/>
-                <ref-ue ref="ENSINBU14"/>
+                <ref-ue ref="ENSINBU16"/>
             </list-ue>
         </semestre>
         <list-intervenants>
