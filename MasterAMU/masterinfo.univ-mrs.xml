@@ -2,7 +2,8 @@
 
 <!DOCTYPE master SYSTEM "masterinfo.univ-mrs.dtd">
 
-<master>
+<master xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="masterinfo.univ-mrs.xsd">
     <table-intervenants>
         <intervenant id="arrighi">
             <nom>Pablo ARRIGHI</nom>

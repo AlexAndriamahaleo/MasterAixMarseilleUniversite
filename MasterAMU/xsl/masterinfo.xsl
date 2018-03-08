@@ -345,7 +345,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="btn-floating  amber lighten-1 tooltipped" href="index.html" data-position="left"
+                    <a class="btn-floating  amber lighten-1 tooltipped" href="liste_parcours.html" data-position="left"
                        data-delay="50" data-tooltip="Parcours">
                         <i class="material-icons">trending_up</i>
                     </a>
@@ -359,7 +359,7 @@
             </li>
             <li class="divider"/>
             <li>
-                <a href="index.html">Parcours</a>
+                <a href="liste_parcours.html">Parcours</a>
             </li>
             <li class="divider"/>
             <li>
@@ -703,47 +703,31 @@
 
         <xsl:result-document href="liste_parcours.html" method="html">
             <xsl:call-template name="build_head"/>
-            <xsl:call-template name="build_nav"/>
-            <main>
-                <div class="container">
-                    <div id="index-banner" class="section no-pad-bot">
-                        <div class="container">
-                            <br/>
-                            <br/>
-                            <h2 class="header center black-text text-lighten-2"><xsl:value-of select="nom"/></h2>
-                            <div class="row center">
-                                <h5 class="header col s12 light">Initiative d'excellence...</h5>
+            <body class="grey lighten-1">
+                <xsl:call-template name="build_nav"/>
+                <main>
+                    <div id="parcours" class="container">
+                        <div class="section">
+                            <div class="col s12">
+                                <h3>Liste des parcours</h3>
+                                <ul>
+                                    <xsl:for-each select="//parcours">
+                                        <xsl:variable name="code" select="@code"/>
+                                        <li>
+                                            <a href="parcours_{$code}.html" class="black-text"><xsl:value-of select="nom"/> (<xsl:value-of select="@code"/>) </a>
+                                        </li>
+                                    </xsl:for-each>
+                                </ul>
                             </div>
-                            <br/>
-                            <br/>
-
                         </div>
                     </div>
-                    <ul>
-                        <xsl:for-each select="//parcours">
-                            <xsl:variable name="code" select="@code"/>
-                            <li>
-                                <a href="parcours_{$code}.html" class="black-text"><xsl:value-of select="nom"/></a>
-                            </li>
-                        </xsl:for-each>
-                    </ul>
-                </div>
-            </main>
-            <xsl:call-template name="build_footer"/>
+                </main>
+                <xsl:call-template name="build_footer"/>
+            </body>
         </xsl:result-document>
 
 
         <xsl:for-each select="//parcours">
-
-            <!--<xsl:variable name="pc" select="nom"/>
-            <xsl:variable name="pc2" select="translate($pc,' ','_')"/>
-            <xsl:variable name="pc3" select="replace($pc2,':','')"/>
-            <xsl:variable name="pc4" select="replace($pc3, 'é', 'e')"/>
-            <xsl:variable name="pc5" select="replace($pc4,'__','_')"/>
-            <li>
-                <a href="parcours_{$pc5}.html" class="black-text"><xsl:value-of select="nom"/></a>
-            </li>
-            <xsl:result-document href="parcours_{$pc5}.html" method="html">-->
 
             <xsl:variable name="code" select="@code"/>
 
@@ -753,34 +737,52 @@
 
             <xsl:result-document href="parcours_{$code}.html" method="html">
                 <xsl:call-template name="build_head"/>
-                <xsl:call-template name="build_nav"/>
-                <main>
-                    <div class="container">
-                        <div id="index-banner" class="section no-pad-bot">
-                            <div class="container">
-                                <br/>
-                                <br/>
-                                <h2 class="header center black-text text-lighten-2"><xsl:value-of select="nom"/></h2>
-                                <div class="row center">
-                                    <h5 class="header col s12 light">Initiative d'excellence...</h5>
+                <body class="grey lighten-1">
+                    <xsl:call-template name="build_nav"/>
+                    <main>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s12">
+                                    <h2 class="header center black-text text-lighten-2"><xsl:value-of select="nom"/></h2>
                                 </div>
-                                <br/>
-                                <br/>
-
+                                <div class="col s12 m8 l10">
+                                    <p>
+                                        <xsl:value-of select="description"/>
+                                    </p>
+                                    <ul class="browser-default">UEs du parcours:
+                                        <xsl:for-each select="semestre">
+                                            <li>
+                                                <xsl:value-of select="@ref"/>
+                                                <ul class="browser-default">
+                                                    <xsl:for-each select="list-ue/ref-ue">
+                                                        <xsl:variable name="k" select="@ref"/>
+                                                        <xsl:variable name="w" select="/master/unites/ue[@id=$k]"/>
+                                                        <li><xsl:apply-templates select="$w" mode="ref"/></li>
+                                                    </xsl:for-each>
+                                                </ul>
+                                            </li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </div>
+                                <div class="col s12 m4 l2">
+                                    <p>
+                                        Intervenant(s):
+                                    </p>
+                                    <xsl:element name="a">
+                                        <xsl:attribute name="href">intervenant_<xsl:value-of select="list-intervenants/ref-intervenant/@ref"/>.html</xsl:attribute>
+                                        <xsl:attribute name="class">black-text</xsl:attribute>
+                                        <xsl:attribute name="style">font-size: large;</xsl:attribute>
+                                        <xsl:element name="img">
+                                            <xsl:attribute name="src">../img/avatar.png</xsl:attribute>
+                                            <xsl:attribute name="style">height: 250px</xsl:attribute>
+                                        </xsl:element>
+                                    </xsl:element>
+                                </div>
                             </div>
                         </div>
-                        <div class="container">
-                            <p>
-                                TEMPLATE POUR DÉCRIRE LE PARCOURS !!!!!
-                                <xsl:value-of select="@code"/>
-                            </p>
-                            <p>
-                                <xsl:value-of select="@spec"/>
-                            </p>
-                        </div>
-                    </div>
-                </main>
-                <xsl:call-template name="build_footer"/>
+                    </main>
+                    <xsl:call-template name="build_footer"/>
+                </body>
             </xsl:result-document>
         </xsl:for-each>
     </xsl:template>
