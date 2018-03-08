@@ -173,7 +173,7 @@
                                 elles mêmes contenant des options.
                             </p>
                             <div class="container">
-                                <table summary="" class="bordered">
+                                <table class="bordered">
                                     <tbody><tr>
                                         <th rowspan="1" colspan="1">Année</th>
 
@@ -374,6 +374,7 @@
                         <xsl:attribute name="src">../img/logo_amu_rvb_noir.png</xsl:attribute>
                         <xsl:attribute name="style">height: 60px</xsl:attribute>
                         <xsl:attribute name="class">hide-on-med-and-down</xsl:attribute>
+                        <xsl:attribute name="alt">Image de fond</xsl:attribute>
                     </xsl:element>
                 </a>
                 <a id="logo-container" href="index.html" class="brand-logo center">Master Informatique <span class="hide-on-med-and-down">de Marseille</span></a>
@@ -389,6 +390,7 @@
                         <xsl:attribute name="src">../img/logo_sciences.png</xsl:attribute>
                         <xsl:attribute name="style">height: 60px</xsl:attribute>
                         <xsl:attribute name="class">right hide-on-med-and-down</xsl:attribute>
+                        <xsl:attribute name="alt">Image de fond</xsl:attribute>
                     </xsl:element>
                 </a>
 
@@ -515,6 +517,7 @@
                                         <xsl:element name="img">
                                             <xsl:attribute name="src">../img/avatar.png</xsl:attribute>
                                             <xsl:attribute name="style">height: 250px</xsl:attribute>
+                                            <xsl:attribute name="alt">Image de fond</xsl:attribute>
                                         </xsl:element>
                                     </div>
                                 </div>
@@ -728,6 +731,16 @@
 
 
         <xsl:for-each select="//parcours">
+
+            <!--<xsl:variable name="pc" select="nom"/>
+            <xsl:variable name="pc2" select="translate($pc,' ','_')"/>
+            <xsl:variable name="pc3" select="replace($pc2,':','')"/>
+            <xsl:variable name="pc4" select="replace($pc3, 'é', 'e')"/>
+            <xsl:variable name="pc5" select="replace($pc4,'__','_')"/>
+            <li>
+                <a href="parcours_{$pc5}.html" class="black-text"><xsl:value-of select="nom"/></a>
+            </li>
+            <xsl:result-document href="parcours_{$pc5}.html" method="html">-->
 
             <xsl:variable name="code" select="@code"/>
 

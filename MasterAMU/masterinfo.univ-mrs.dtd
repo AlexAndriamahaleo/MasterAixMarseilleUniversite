@@ -50,7 +50,7 @@
 <!ELEMENT semestre              (list-ue+)>
 <!ATTLIST semestre
         id  ID    #REQUIRED
-        ref CDATA #IMPLIED
+        ref CDATA #REQUIRED
         >
 <!ELEMENT list-débouchés        (métier+)>
 <!ELEMENT table             (tr)+>
